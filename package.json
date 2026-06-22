@@ -6,7 +6,8 @@
   "description": "Offline-capable PWA for browsing all Riftbound TCG cards.",
   "scripts": {
     "fetch": "node scripts/fetch-cards.mjs",
-    "serve": "node scripts/serve.mjs",
+    "version:gen": "node scripts/gen-version.mjs",
+    "serve": "npm run version:gen && node scripts/serve.mjs",
     "start": "npm run fetch && npm run serve"
   }
 }

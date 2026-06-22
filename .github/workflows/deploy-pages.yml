@@ -35,7 +35,14 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history + tags so `git describe` yields a real version
       - uses: actions/configure-pages@v5
+      # Stamp public/version.js from git (it's gitignored, so it isn't in the
+      # checkout). This drives the on-page version label and the service-worker
+      # cache-bust (sw.js?v=<version>), so without it the deployed cache never
+      # updates. Node is preinstalled on ubuntu-latest; no npm install needed.
+      - run: node scripts/gen-version.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
