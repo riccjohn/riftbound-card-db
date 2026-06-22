@@ -3,7 +3,7 @@
  *   rb-shell-v1  — app shell + cards.json (precached on install)
  *   rb-images-v1 — card art (cache-first; populated lazily and by "Download images")
  */
-const SHELL = "rb-shell-v1";
+const SHELL = "rb-shell-v2";
 const IMAGES = "rb-images-v1";
 const SHELL_ASSETS = [
   "./", "./index.html", "./app.js", "./manifest.webmanifest",
