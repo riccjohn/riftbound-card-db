@@ -1,0 +1,13 @@
+{
+  "name": "Riftbound Offline Card DB",
+  "short_name": "Riftbound DB",
+  "description": "Browse and search all Riftbound TCG cards offline.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1419",
+  "theme_color": "#0f1419",
+  "icons": [
+    { "src": "./icon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any maskable" }
+  ]
+}

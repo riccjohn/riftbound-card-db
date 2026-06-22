@@ -1,0 +1,12 @@
+{
+  "name": "riftbound-offline-db",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-capable PWA for browsing all Riftbound TCG cards.",
+  "scripts": {
+    "fetch": "node scripts/fetch-cards.mjs",
+    "serve": "node scripts/serve.mjs",
+    "start": "npm run fetch && npm run serve"
+  }
+}

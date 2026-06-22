@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0f1419" />
+<link rel="manifest" href="./manifest.webmanifest" />
+<link rel="icon" href="./icon.svg" />
+<title>Riftbound Offline Card DB</title>
+<style>
+  :root {
+    --bg: #0f1419; --panel: #1a212b; --panel-2: #232c38; --line: #2e3a48;
+    --text: #e6edf3; --muted: #8b98a5; --gold: #c8aa6e; --accent: #4a9eda;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.45 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  a { color: var(--accent); }
+
+  header {
+    position: sticky; top: 0; z-index: 20; background: rgba(15,20,25,.95);
+    backdrop-filter: blur(8px); border-bottom: 1px solid var(--line);
+    padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .brand { font-weight: 700; color: var(--gold); letter-spacing: .3px; white-space: nowrap; }
+  .brand small { color: var(--muted); font-weight: 400; }
+  input[type=search], select {
+    background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px 10px; font-size: 14px; outline: none;
+  }
+  input[type=search] { flex: 1 1 220px; min-width: 0; }
+  input[type=search]:focus, select:focus { border-color: var(--accent); }
+  select { flex: 0 1 auto; }
+  button {
+    background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px 12px; font-size: 14px; cursor: pointer;
+  }
+  button.primary { background: var(--gold); color: #1a1206; border-color: var(--gold); font-weight: 600; }
+  button:disabled { opacity: .5; cursor: default; }
+  .statusbar { color: var(--muted); font-size: 12.5px; margin-top: 8px; display: flex;
+    gap: 12px; flex-wrap: wrap; align-items: center; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 5px; }
+  .dot.ok { background: #3fb950; } .dot.warn { background: #d29922; } .dot.off { background: var(--muted); }
+
+  main { padding: 14px; }
+  .grid {
+    display: grid; gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    overflow: hidden; cursor: pointer; display: flex; flex-direction: column;
+    transition: transform .08s ease, border-color .08s ease;
+  }
+  .card:hover { transform: translateY(-2px); border-color: var(--gold); }
+  .thumb { position: relative; aspect-ratio: 744 / 1039; background: var(--panel-2);
+    display: flex; align-items: center; justify-content: center; }
+  .thumb.landscape { aspect-ratio: 1039 / 744; }
+  .thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .thumb .ph { padding: 10px; text-align: center; color: var(--muted); font-size: 12px; }
+  .card .meta { padding: 8px 10px; }
+  .card .nm { font-weight: 600; font-size: 13.5px; line-height: 1.2; }
+  .card .sub { color: var(--muted); font-size: 11.5px; margin-top: 3px; }
+  .pill { display: inline-block; font-size: 10.5px; padding: 1px 6px; border-radius: 999px;
+    border: 1px solid var(--line); color: var(--muted); margin: 2px 3px 0 0; }
+
+  .empty { color: var(--muted); text-align: center; padding: 60px 20px; }
+
+  /* Modal */
+  dialog { border: none; background: transparent; padding: 0; max-width: 96vw; max-height: 96vh; }
+  dialog::backdrop { background: rgba(0,0,0,.7); }
+  .modal { background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+    width: min(860px, 96vw); max-height: 92vh; overflow: auto; display: grid;
+    grid-template-columns: minmax(0, 320px) 1fr; gap: 0; }
+  @media (max-width: 640px) { .modal { grid-template-columns: 1fr; } }
+  .modal .art { background: var(--panel-2); padding: 16px; display: flex; align-items: flex-start;
+    justify-content: center; }
+  .modal .art img { width: 100%; border-radius: 8px; }
+  .modal .art .ph { color: var(--muted); text-align: center; padding: 30px 10px; }
+  .modal .body { padding: 18px 20px; }
+  .modal h2 { margin: 0 0 2px; color: var(--gold); font-size: 20px; }
+  .modal .code { color: var(--muted); font-size: 12.5px; }
+  .modal .rules { white-space: pre-wrap; margin: 14px 0; padding: 12px; background: var(--panel-2);
+    border-radius: 8px; border: 1px solid var(--line); }
+  .kv { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 13.5px; }
+  .kv dt { color: var(--muted); } .kv dd { margin: 0; }
+  .close { position: sticky; top: 8px; float: right; margin: 8px; z-index: 2; }
+
+  .progress { height: 6px; background: var(--panel-2); border-radius: 999px; overflow: hidden;
+    flex: 1 1 120px; max-width: 220px; }
+  .progress > i { display: block; height: 100%; background: var(--gold); width: 0; transition: width .2s; }
+</style>
+</head>
+<body>
+<header>
+  <div class="row">
+    <span class="brand">Riftbound&nbsp;DB <small id="count"></small></span>
+    <input id="q" type="search" placeholder="Search name, text, tag, code…" autocomplete="off" />
+    <select id="fSet"><option value="">All sets</option></select>
+    <select id="fType"><option value="">All types</option></select>
+    <select id="fDomain"><option value="">All domains</option></select>
+    <select id="fRarity"><option value="">All rarities</option></select>
+  </div>
+  <div class="statusbar">
+    <span id="netState"><span class="dot off"></span>…</span>
+    <span id="genState"></span>
+    <span id="freshState"></span>
+    <button id="imgBtn">Download images for offline</button>
+    <div class="progress" id="imgProg" hidden><i></i></div>
+    <span id="imgState"></span>
+  </div>
+</header>
+
+<main>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>No cards match your filters.</div>
+</main>
+
+<dialog id="modal"></dialog>
+
+<script src="./app.js"></script>
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
+  }
+</script>
+</body>
+</html>
