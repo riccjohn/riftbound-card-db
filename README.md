@@ -40,6 +40,25 @@ browser's "Install" / "Add to Home Screen" prompt.
 (and on manual dispatch) and commits `cards.json` if anything changed. If you
 deploy `public/` (GitHub Pages, Netlify, etc.), updates flow automatically.
 
+## Deploying (GitHub Pages)
+
+The app is a static `public/` folder, deployed via GitHub Actions:
+
+1. In the repo, go to **Settings → Pages → Build and deployment → Source** and
+   select **GitHub Actions**.
+2. Push to `main` (any change under `public/`) — `deploy-pages.yml` publishes
+   the site at `https://<user>.github.io/<repo>/`.
+
+The weekly **Refresh card data** workflow commits updated `cards.json`, and the
+deploy workflow chains off its completion, so new cards/errata go live
+automatically with no manual step. You can also trigger either workflow manually
+from the **Actions** tab.
+
+> The freshness check fetches the live gallery directly; on the deployed site
+> that cross-origin request is blocked by the browser, so the "up to date"
+> indicator stays hidden there. All other features (search, filters, offline
+> images) work normally.
+
 ## Notes
 
 Card data and images are © Riot Games. This is an unofficial personal tool, not

@@ -1,0 +1,43 @@
+name: Deploy to GitHub Pages
+
+on:
+  # Deploy on normal pushes that touch the app.
+  push:
+    branches: [main]
+    paths:
+      - "public/**"
+      - ".github/workflows/deploy-pages.yml"
+  # Deploy after the weekly card refresh commits new data. (A push made by the
+  # default GITHUB_TOKEN does not itself trigger the `push` event above, so we
+  # chain off the refresh workflow completing instead.)
+  workflow_run:
+    workflows: ["Refresh card data"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; skip superseded runs.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # For workflow_run triggers, only deploy if the refresh actually succeeded.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4
