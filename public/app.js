@@ -7,6 +7,17 @@
  * Freshness: we compare our local buildId against the live gallery's buildId. */
 
 const IMG_CACHE = "rb-images-v1";
+
+// The card CDN (Sanity) resizes/recompresses on the fly via URL params. Full
+// PNGs are ~800 KB each; a width-capped WebP is ~25-45 KB and plenty sharp for
+// viewing — ~40 MB total to cache offline instead of ~770 MB.
+const THUMB_W = 360;
+const FULL_W = 600;
+function img(url, w) {
+  if (!url) return url;
+  const sep = url.includes("?") ? "&" : "?";
+  return `${url}${sep}w=${w}&fm=webp&q=78`;
+}
 const els = {
   grid: document.getElementById("grid"),
   empty: document.getElementById("empty"),
@@ -67,7 +78,7 @@ function render() {
     el.innerHTML = `
       <div class="thumb${land}">
         ${c.image
-          ? `<img loading="lazy" src="${c.image}" alt="${esc(c.name)}"
+          ? `<img loading="lazy" src="${img(c.image, THUMB_W)}" alt="${esc(c.name)}"
                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph',textContent:'(image offline — tap Download)'}))" />`
           : `<div class="ph">No image</div>`}
       </div>
@@ -91,7 +102,7 @@ function openCard(c) {
     <div class="modal">
       <div class="art">
         ${c.image
-          ? `<img src="${c.image}" alt="${esc(c.name)}"
+          ? `<img src="${img(c.image, FULL_W)}" alt="${esc(c.name)}"
                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph',textContent:'Image not downloaded.\\nConnect & tap “Download images”.'}))" />`
           : `<div class="ph">No image</div>`}
       </div>
@@ -121,7 +132,11 @@ const esc = (s) =>
 /* ---- Offline image download ---- */
 async function downloadImages() {
   if (!("caches" in window)) { els.imgState.textContent = "Cache API unavailable."; return; }
-  const urls = [...new Set(DB.cards.map((c) => c.image).filter(Boolean))];
+  // Cache the exact transformed URLs the UI requests (thumb + full), so both
+  // the grid and the detail view work offline — not the heavy original PNGs.
+  const urls = [...new Set(
+    DB.cards.flatMap((c) => (c.image ? [img(c.image, THUMB_W), img(c.image, FULL_W)] : []))
+  )];
   const cache = await caches.open(IMG_CACHE);
   els.imgBtn.disabled = true;
   els.imgProg.hidden = false;
@@ -147,7 +162,7 @@ async function downloadImages() {
   };
   await Promise.all(Array.from({ length: 6 }, worker));
   els.imgBtn.disabled = false;
-  els.imgState.textContent = `Cached ${done - failed}/${urls.length} images.`;
+  els.imgState.textContent = `Cached ${done - failed}/${urls.length} images for offline use.`;
   localStorage.setItem("rb-images-cached", String(done - failed));
 }
 
