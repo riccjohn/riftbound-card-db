@@ -49,6 +49,9 @@ self.addEventListener("fetch", (e) => {
     return;
   }
 
+  // Dev live-reload stream: never cache, let it pass straight through.
+  if (url.pathname === "/__livereload") return;
+
   // App shell + data: network-first when online (keeps cards.json fresh),
   // falling back to cache when offline. Only handle same-origin GETs.
   if (url.origin === self.location.origin) {
