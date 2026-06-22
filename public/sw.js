@@ -3,11 +3,12 @@
  *   rb-shell-v1  — app shell + cards.json (precached on install)
  *   rb-images-v1 — card art (cache-first; populated lazily and by "Download images")
  */
-const SHELL = "rb-shell-v2";
+const SHELL = "rb-shell-v3";
 const IMAGES = "rb-images-v1";
 const SHELL_ASSETS = [
   "./", "./index.html", "./app.js", "./manifest.webmanifest",
   "./icon.svg", "./data/cards.json",
+  "./fonts/chakra-petch-500.woff2", "./fonts/chakra-petch-700.woff2",
 ];
 const IMG_HOST = "cmsassets.rgpub.io";
 

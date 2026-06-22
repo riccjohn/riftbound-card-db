@@ -8,6 +8,16 @@
 
 const IMG_CACHE = "rb-images-v1";
 
+// Domain → color identity. Mirrors the --d-* CSS vars; the single source of
+// truth for tinting cards, pills, and the domain filter chips. A card's accent
+// is its first listed domain (its primary), with Colorless as the neutral.
+const DOMAIN_COLORS = {
+  Body: "#f0934e", Calm: "#5fcf80", Chaos: "#bd71ec", Fury: "#ef5a52",
+  Mind: "#5ab0ec", Order: "#e7c66b", Colorless: "#9aa6bb",
+};
+const domainColor = (d) => DOMAIN_COLORS[d] || "var(--line)";
+const cardAccent = (c) => domainColor((c.domains && c.domains[0]) || "Colorless");
+
 // The card CDN (Sanity) resizes/recompresses on the fly via URL params. Full
 // PNGs are ~800 KB each; a width-capped WebP is ~25-45 KB and plenty sharp for
 // viewing — ~40 MB total to cache offline instead of ~770 MB.
@@ -59,24 +69,28 @@ function cardMatches(c, terms, f) {
   return terms.every((t) => hay.includes(t));
 }
 
+let activeDomain = ""; // "" = all; otherwise a single domain name
+
 function render() {
   const terms = els.q.value.toLowerCase().split(/\s+/).filter(Boolean);
   const f = {
     set: els.fSet.value, type: els.fType.value,
-    domain: els.fDomain.value, rarity: els.fRarity.value,
+    domain: activeDomain, rarity: els.fRarity.value,
   };
   filtered = DB.cards.filter((c) => cardMatches(c, terms, f));
   els.empty.hidden = filtered.length > 0;
-  els.count.textContent = `(${filtered.length}/${DB.cards.length})`;
+  els.count.textContent = `· ${filtered.length} of ${DB.cards.length}`;
 
   const frag = document.createDocumentFragment();
   for (const c of filtered) {
     const el = document.createElement("div");
     el.className = "card";
     el.tabIndex = 0;
+    el.style.setProperty("--dc", cardAccent(c));
     const land = c.orientation === "landscape" ? " landscape" : "";
     el.innerHTML = `
       <div class="thumb${land}">
+        ${c.energy != null && c.energy !== "" ? `<span class="energy">${esc(c.energy)}</span>` : ""}
         ${c.image
           ? `<img loading="lazy" src="${img(c.image, THUMB_W)}" alt="${esc(c.name)}"
                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph',textContent:'(image offline — tap Download)'}))" />`
@@ -84,8 +98,9 @@ function render() {
       </div>
       <div class="meta">
         <div class="nm">${esc(c.name)}</div>
-        <div class="sub">${esc([c.type, c.energy != null ? "⚡" + c.energy : "", c.rarity].filter(Boolean).join(" · "))}</div>
-        <div>${c.domains.map((d) => `<span class="pill">${esc(d)}</span>`).join("")}</div>
+        <div class="sub">${esc([c.type, c.rarity].filter(Boolean).join(" · "))}</div>
+        <div class="pills">${c.domains.map((d) =>
+          `<span class="pill" style="color:${domainColor(d)}">${esc(d)}</span>`).join("")}</div>
       </div>`;
     el.addEventListener("click", () => openCard(c));
     el.addEventListener("keydown", (e) => { if (e.key === "Enter") openCard(c); });
@@ -94,12 +109,34 @@ function render() {
   els.grid.replaceChildren(frag);
 }
 
+// Build the domain filter as a row of toggleable color crystals (single-select).
+function buildDomainChips(domains) {
+  els.fDomain.replaceChildren();
+  for (const d of domains) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "dchip";
+    b.setAttribute("aria-pressed", "false");
+    b.style.setProperty("--dc", domainColor(d));
+    b.textContent = d;
+    b.addEventListener("click", () => {
+      activeDomain = activeDomain === d ? "" : d;
+      for (const chip of els.fDomain.children)
+        chip.setAttribute("aria-pressed", String(chip.textContent === activeDomain));
+      render();
+    });
+    els.fDomain.appendChild(b);
+  }
+}
+
 function openCard(c) {
   const land = c.orientation === "landscape" ? " landscape" : "";
   const stat = (label, v) => (v != null && v !== "" ? `<dt>${label}</dt><dd>${esc(String(v))}</dd>` : "");
+  const domainPills = c.domains.map((d) =>
+    `<span class="pill" style="color:${domainColor(d)}">${esc(d)}</span>`).join(" ");
   els.modal.innerHTML = `
     <button class="close" onclick="document.getElementById('modal').close()">✕ Close</button>
-    <div class="modal">
+    <div class="modal" style="--dc:${cardAccent(c)}">
       <div class="art">
         ${c.image
           ? `<img src="${img(c.image, FULL_W)}" alt="${esc(c.name)}"
@@ -113,7 +150,7 @@ function openCard(c) {
         <dl class="kv">
           ${stat("Type", c.type)}
           ${stat("Rarity", c.rarity)}
-          ${stat("Domains", c.domains.join(", "))}
+          ${c.domains.length ? `<dt>Domains</dt><dd>${domainPills}</dd>` : ""}
           ${stat("Energy", c.energy)}
           ${stat("Might", c.might)}
           ${stat("Might Bonus", c.mightBonus)}
@@ -201,8 +238,8 @@ async function init() {
   }
   fillSelect(els.fSet, DB.sets || []);
   fillSelect(els.fType, DB.types || []);
-  fillSelect(els.fDomain, DB.domains || []);
   fillSelect(els.fRarity, DB.rarities || []);
+  buildDomainChips(DB.domains || []);
   if (DB.generatedAt) {
     els.gen.textContent = "data: " + new Date(DB.generatedAt).toLocaleDateString();
   }
@@ -210,7 +247,7 @@ async function init() {
   if (cached) els.imgState.textContent = `${cached} images cached offline.`;
 
   els.q.addEventListener("input", render);
-  for (const s of [els.fSet, els.fType, els.fDomain, els.fRarity]) s.addEventListener("change", render);
+  for (const s of [els.fSet, els.fType, els.fRarity]) s.addEventListener("change", render);
   els.imgBtn.addEventListener("click", downloadImages);
   els.modal.addEventListener("click", (e) => { if (e.target === els.modal) els.modal.close(); });
   window.addEventListener("online", setNet);
