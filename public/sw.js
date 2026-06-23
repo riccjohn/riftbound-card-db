@@ -72,7 +72,13 @@ self.addEventListener("fetch", (e) => {
     e.respondWith(
       fetch(req)
         .then((res) => {
-          if (res.ok) caches.open(SHELL).then((c) => c.put(req, res.clone()));
+          // Clone synchronously, before the body is handed to the page —
+          // caches.open() is async, so cloning inside its .then() would run
+          // after the page has already consumed the body ("body already used").
+          if (res.ok) {
+            const copy = res.clone();
+            caches.open(SHELL).then((c) => c.put(req, copy));
+          }
           return res;
         })
         .catch(() => caches.match(req).then((hit) => hit || caches.match("./index.html")))

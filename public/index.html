@@ -95,12 +95,18 @@
   .statusbar .ver { margin-left: auto; font-family: var(--display); color: var(--muted);
     opacity: .8; letter-spacing: .3px; }
 
+  /* The hidden attribute must win over display:flex below, otherwise the toast
+     shows at all times and its button (wired only when an update is detected)
+     is dead. UA [hidden]{display:none} loses to the .toast class selector. */
+  [hidden] { display: none !important; }
+
   /* Update toast: shown when the service worker detects a newer build. */
   .toast { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 50;
     display: flex; align-items: center; gap: 12px; padding: 10px 12px 10px 16px;
     background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
-    border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,.45); font-size: 13.5px; }
-  .toast button { padding: 6px 12px; }
+    border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,.45); font-size: 13.5px;
+    max-width: calc(100vw - 28px); }
+  .toast button { padding: 6px 14px; flex: none; white-space: nowrap; }
 
   main { padding: 16px 14px; }
   .grid {
@@ -232,11 +238,11 @@
     // finishes installing (while an old one still controls the page), prompt
     // the user to refresh rather than swapping assets out from under them.
 
-    // Reload once the new worker takes control. skipWaiting() + clients.claim()
-    // (in the SW's activate handler) fire controllerchange reliably; listening
-    // here avoids racing the waiting worker's own statechange. Gated on a
-    // user-initiated flag so the controllerchange from the *first* install
-    // (uncontrolled page → claimed) doesn't trigger a spurious reload.
+    // Reload once the new worker takes control. The button posts skipWaiting;
+    // the SW calls clients.claim() on activate, which fires controllerchange.
+    // Gated on updateRequested so the controllerchange from a first install
+    // (uncontrolled page → claimed) doesn't trigger a spurious reload; the
+    // refreshing guard keeps it to a single reload.
     let updateRequested = false, refreshing = false;
     navigator.serviceWorker.addEventListener("controllerchange", () => {
       if (!updateRequested || refreshing) return;
