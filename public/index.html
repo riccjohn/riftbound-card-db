@@ -232,16 +232,20 @@
     // finishes installing (while an old one still controls the page), prompt
     // the user to refresh rather than swapping assets out from under them.
 
-    // Reload once the new worker takes control. skipWaiting() + clients.claim()
-    // (in the SW's activate handler) fire controllerchange reliably; listening
-    // here avoids racing the waiting worker's own statechange. Gated on a
-    // user-initiated flag so the controllerchange from the *first* install
-    // (uncontrolled page → claimed) doesn't trigger a spurious reload.
+    // Reload once the user accepts the update. The fast path is the new
+    // worker taking control (skipWaiting + clients.claim → controllerchange),
+    // but that event is unreliable across browsers and SW states, so the click
+    // also arms a short fallback timer that reloads regardless. Either way we
+    // reload exactly once. Gated on updateRequested so the controllerchange
+    // from a first install (uncontrolled page → claimed) is ignored.
     let updateRequested = false, refreshing = false;
-    navigator.serviceWorker.addEventListener("controllerchange", () => {
-      if (!updateRequested || refreshing) return;
+    const doReload = () => {
+      if (refreshing) return;
       refreshing = true;
       location.reload();
+    };
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (updateRequested) doReload();
     });
 
     window.addEventListener("load", async () => {
@@ -253,6 +257,10 @@
           document.getElementById("updateBtn").disabled = true;
           updateRequested = true;
           worker.postMessage("skipWaiting");
+          // Fallback: if controllerchange never fires, reload anyway so the
+          // button is never a no-op. The new versioned shell is already cached,
+          // so a plain reload picks it up even if the worker swap lagged.
+          setTimeout(doReload, 1500);
         };
       };
       // An update can already be waiting (installed between visits)...
