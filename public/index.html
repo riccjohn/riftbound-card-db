@@ -95,6 +95,11 @@
   .statusbar .ver { margin-left: auto; font-family: var(--display); color: var(--muted);
     opacity: .8; letter-spacing: .3px; }
 
+  /* The hidden attribute must win over display:flex below, otherwise the toast
+     shows at all times and its button (wired only when an update is detected)
+     is dead. UA [hidden]{display:none} loses to the .toast class selector. */
+  [hidden] { display: none !important; }
+
   /* Update toast: shown when the service worker detects a newer build. */
   .toast { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 50;
     display: flex; align-items: center; gap: 12px; padding: 10px 12px 10px 16px;
