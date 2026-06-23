@@ -99,8 +99,9 @@
   .toast { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 50;
     display: flex; align-items: center; gap: 12px; padding: 10px 12px 10px 16px;
     background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
-    border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,.45); font-size: 13.5px; }
-  .toast button { padding: 6px 12px; }
+    border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,.45); font-size: 13.5px;
+    max-width: calc(100vw - 28px); }
+  .toast button { padding: 6px 14px; flex: none; white-space: nowrap; }
 
   main { padding: 16px 14px; }
   .grid {
