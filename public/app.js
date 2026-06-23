@@ -39,7 +39,6 @@ const els = {
   fRarity: document.getElementById("fRarity"),
   net: document.getElementById("netState"),
   gen: document.getElementById("genState"),
-  fresh: document.getElementById("freshState"),
   imgBtn: document.getElementById("imgBtn"),
   imgProg: document.getElementById("imgProg"),
   imgState: document.getElementById("imgState"),
@@ -203,28 +202,9 @@ async function downloadImages() {
   localStorage.setItem("rb-images-cached", String(done - failed));
 }
 
-/* ---- Freshness check vs. live gallery ---- */
-async function checkFreshness() {
-  els.fresh.textContent = "checking for updates…";
-  try {
-    const res = await fetch("https://riftbound.leagueoflegends.com/en-us/card-gallery/", { mode: "cors" });
-    const html = await res.text();
-    const live = html.match(/"buildId"\s*:\s*"([^"]+)"/)?.[1];
-    if (!live) { els.fresh.textContent = ""; return; }
-    if (DB.buildId && live !== DB.buildId) {
-      els.fresh.innerHTML = `<span class="dot warn"></span>Update available — re-run the fetch script.`;
-    } else {
-      els.fresh.innerHTML = `<span class="dot ok"></span>Up to date.`;
-    }
-  } catch {
-    els.fresh.textContent = ""; // offline or CORS-blocked; not an error
-  }
-}
-
 function setNet() {
   const on = navigator.onLine;
   els.net.innerHTML = `<span class="dot ${on ? "ok" : "off"}"></span>${on ? "Online" : "Offline"}`;
-  if (on) checkFreshness();
 }
 
 /* ---- Init ---- */
