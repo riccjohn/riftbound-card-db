@@ -1,12 +1,18 @@
 /* Service worker: makes the app shell + card data available offline, and caches
  * card images on view. Two caches:
- *   rb-shell-v1  — app shell + cards.json (precached on install)
- *   rb-images-v1 — card art (cache-first; populated lazily and by "Download images")
+ *   rb-shell-<version> — app shell + cards.json (precached on install)
+ *   rb-images-v1       — card art (cache-first; populated lazily and by "Download images")
+ *
+ * The shell cache is versioned by the build: the page registers this worker as
+ * "sw.js?v=<APP_VERSION>", so every new build is a new SW URL that installs a
+ * fresh shell cache and (on activate) deletes the old one. Image art is version
+ * -independent, so it survives upgrades. No manual cache-name bumping needed.
  */
-const SHELL = "rb-shell-v3";
+const VERSION = new URL(self.location.href).searchParams.get("v") || "dev";
+const SHELL = `rb-shell-${VERSION}`;
 const IMAGES = "rb-images-v1";
 const SHELL_ASSETS = [
-  "./", "./index.html", "./app.js", "./manifest.webmanifest",
+  "./", "./index.html", "./app.js", "./version.js", "./manifest.webmanifest",
   "./icon.svg", "./data/cards.json",
   "./fonts/chakra-petch-500.woff2", "./fonts/chakra-petch-700.woff2",
 ];
@@ -14,8 +20,15 @@ const IMG_HOST = "cmsassets.rgpub.io";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
-    caches.open(SHELL).then((c) => c.addAll(SHELL_ASSETS)).then(() => self.skipWaiting())
+    caches.open(SHELL).then((c) => c.addAll(SHELL_ASSETS))
   );
+});
+
+// The page posts "skipWaiting" when the user clicks Refresh on the update
+// toast, so a freshly-installed worker takes over without waiting for all tabs
+// to close. (On install we don't skipWaiting anymore — we wait for the prompt.)
+self.addEventListener("message", (e) => {
+  if (e.data === "skipWaiting") self.skipWaiting();
 });
 
 self.addEventListener("activate", (e) => {

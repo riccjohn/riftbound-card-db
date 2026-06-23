@@ -92,6 +92,15 @@
     gap: 12px; flex-wrap: wrap; align-items: center; }
   .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 5px; }
   .dot.ok { background: #3fb950; } .dot.warn { background: #d29922; } .dot.off { background: var(--muted); }
+  .statusbar .ver { margin-left: auto; font-family: var(--display); color: var(--muted);
+    opacity: .8; letter-spacing: .3px; }
+
+  /* Update toast: shown when the service worker detects a newer build. */
+  .toast { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 50;
+    display: flex; align-items: center; gap: 12px; padding: 10px 12px 10px 16px;
+    background: var(--panel-2); color: var(--text); border: 1px solid var(--line);
+    border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,.45); font-size: 13.5px; }
+  .toast button { padding: 6px 12px; }
 
   main { padding: 16px 14px; }
   .grid {
@@ -194,8 +203,14 @@
     <button id="imgBtn">Download images for offline</button>
     <div class="progress" id="imgProg" hidden><i></i></div>
     <span id="imgState"></span>
+    <span id="verState" class="ver"></span>
   </div>
 </header>
+
+<div class="toast" id="updateToast" hidden role="status">
+  A new version is available.
+  <button id="updateBtn" class="primary">Refresh</button>
+</div>
 
 <main>
   <div class="grid" id="grid"></div>
@@ -204,10 +219,41 @@
 
 <dialog id="modal"></dialog>
 
+<script src="./version.js"></script>
 <script src="./app.js"></script>
 <script>
+  // Surface the build version in the status bar.
+  const VERSION = self.APP_VERSION || "dev";
+  document.getElementById("verState").textContent = "v" + VERSION;
+
   if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
+    // Register the SW under a version-stamped URL so each build is a distinct
+    // worker that installs a fresh shell cache. When a new one is found and
+    // finishes installing (while an old one still controls the page), prompt
+    // the user to refresh rather than swapping assets out from under them.
+    window.addEventListener("load", async () => {
+      const reg = await navigator.serviceWorker.register("./sw.js?v=" + VERSION);
+      const toast = document.getElementById("updateToast");
+      const showToast = (worker) => {
+        toast.hidden = false;
+        document.getElementById("updateBtn").onclick = () => {
+          worker.postMessage("skipWaiting");
+          worker.addEventListener("statechange", () => {
+            if (worker.state === "activated") location.reload();
+          });
+        };
+      };
+      // An update can already be waiting (installed between visits)...
+      if (reg.waiting && navigator.serviceWorker.controller) showToast(reg.waiting);
+      // ...or arrive while the page is open.
+      reg.addEventListener("updatefound", () => {
+        const sw = reg.installing;
+        if (!sw) return;
+        sw.addEventListener("statechange", () => {
+          if (sw.state === "installed" && navigator.serviceWorker.controller) showToast(sw);
+        });
+      });
+    });
   }
 </script>
 </body>
