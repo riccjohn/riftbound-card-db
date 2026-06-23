@@ -231,16 +231,28 @@
     // worker that installs a fresh shell cache. When a new one is found and
     // finishes installing (while an old one still controls the page), prompt
     // the user to refresh rather than swapping assets out from under them.
+
+    // Reload once the new worker takes control. skipWaiting() + clients.claim()
+    // (in the SW's activate handler) fire controllerchange reliably; listening
+    // here avoids racing the waiting worker's own statechange. Gated on a
+    // user-initiated flag so the controllerchange from the *first* install
+    // (uncontrolled page → claimed) doesn't trigger a spurious reload.
+    let updateRequested = false, refreshing = false;
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (!updateRequested || refreshing) return;
+      refreshing = true;
+      location.reload();
+    });
+
     window.addEventListener("load", async () => {
       const reg = await navigator.serviceWorker.register("./sw.js?v=" + VERSION);
       const toast = document.getElementById("updateToast");
       const showToast = (worker) => {
         toast.hidden = false;
         document.getElementById("updateBtn").onclick = () => {
+          document.getElementById("updateBtn").disabled = true;
+          updateRequested = true;
           worker.postMessage("skipWaiting");
-          worker.addEventListener("statechange", () => {
-            if (worker.state === "activated") location.reload();
-          });
         };
       };
       // An update can already be waiting (installed between visits)...
