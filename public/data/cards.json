@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T11:16:45.678Z",
+  "generatedAt": "2026-09-28T12:11:56.754Z",
   "source": "https://riftbound.leagueoflegends.com/en-us/card-gallery/",
-  "buildId": "LI6_0luFJW4oaE-wYs9e6",
+  "buildId": "ITtiC1BggwiAprwzqpkOt",
   "count": 1189,
   "sets": [
     "Origins",
@@ -213,58 +213,6 @@
       "effectHtml": null
     },
     {
-      "id": "sfd-227-star-221",
-      "code": "SFD-227*/221",
-      "collectorNumber": 227,
-      "name": "Ahri",
-      "set": "Spiritforged",
-      "setId": "SFD",
-      "type": "Unit",
-      "rarity": "Showcase",
-      "domains": [
-        "Mind"
-      ],
-      "energy": "3",
-      "might": "3",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Ahri"
-      ],
-      "illustrator": "Shawn Tan",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/608f786c30a7e80db87d3c2d45bc0c26b0840c5e-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Ahri, Inquisitive. When I attack or defend, give an enemy unit here -2 [S] this turn, to a minimum of 1 [S].",
-      "abilityHtml": "<p>When I attack or defend, give an enemy unit here -2 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "sfd-227-221",
-      "code": "SFD-227/221",
-      "collectorNumber": 227,
-      "name": "Ahri",
-      "set": "Spiritforged",
-      "setId": "SFD",
-      "type": "Unit",
-      "rarity": "Showcase",
-      "domains": [
-        "Mind"
-      ],
-      "energy": "3",
-      "might": "3",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Ahri"
-      ],
-      "illustrator": "Shawn Tan",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d4c332e90c97e5e70b996598cd4a0f731b77fdef-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Ahri, Inquisitive. When I attack or defend, give an enemy unit here -2 [S] this turn, to a minimum of 1 [S].",
-      "abilityHtml": "<p>When I attack or defend, give an enemy unit here -2 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogn-119-298",
       "code": "OGN-119/298",
       "collectorNumber": 119,
@@ -319,12 +267,12 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-119a-298",
-      "code": "OGN-119a/298",
-      "collectorNumber": 119,
+      "id": "sfd-227-star-221",
+      "code": "SFD-227*/221",
+      "collectorNumber": 227,
       "name": "Ahri",
-      "set": "Origins",
-      "setId": "OGN",
+      "set": "Spiritforged",
+      "setId": "SFD",
       "type": "Unit",
       "rarity": "Showcase",
       "domains": [
@@ -335,12 +283,37 @@
       "mightBonus": null,
       "power": "1",
       "tags": [
-        "Ahri",
-        "Ionia"
+        "Ahri"
       ],
-      "illustrator": "Kudos Productions",
+      "illustrator": "Shawn Tan",
       "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7adc5aa8dba66bf918b8140699cb3a74f7b0efb5-744x1039.png?accountingTag=RB",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/608f786c30a7e80db87d3c2d45bc0c26b0840c5e-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Ahri, Inquisitive. When I attack or defend, give an enemy unit here -2 [S] this turn, to a minimum of 1 [S].",
+      "abilityHtml": "<p>When I attack or defend, give an enemy unit here -2 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "sfd-227-221",
+      "code": "SFD-227/221",
+      "collectorNumber": 227,
+      "name": "Ahri",
+      "set": "Spiritforged",
+      "setId": "SFD",
+      "type": "Unit",
+      "rarity": "Showcase",
+      "domains": [
+        "Mind"
+      ],
+      "energy": "3",
+      "might": "3",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Ahri"
+      ],
+      "illustrator": "Shawn Tan",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d4c332e90c97e5e70b996598cd4a0f731b77fdef-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Ahri, Inquisitive. When I attack or defend, give an enemy unit here -2 [S] this turn, to a minimum of 1 [S].",
       "abilityHtml": "<p>When I attack or defend, give an enemy unit here -2 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
       "effectHtml": null
@@ -370,6 +343,33 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fabbcc2f83f397cf07299236a702db05a151053b-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Ahri, Alluring. When I hold, you score 1 point.",
       "abilityHtml": "<p>When I hold, you score 1 point.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-119a-298",
+      "code": "OGN-119a/298",
+      "collectorNumber": 119,
+      "name": "Ahri",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Unit",
+      "rarity": "Showcase",
+      "domains": [
+        "Mind"
+      ],
+      "energy": "3",
+      "might": "3",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Ahri",
+        "Ionia"
+      ],
+      "illustrator": "Kudos Productions",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7adc5aa8dba66bf918b8140699cb3a74f7b0efb5-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Ahri, Inquisitive. When I attack or defend, give an enemy unit here -2 [S] this turn, to a minimum of 1 [S].",
+      "abilityHtml": "<p>When I attack or defend, give an enemy unit here -2 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
       "effectHtml": null
     },
     {
@@ -998,33 +998,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogs-001-024",
-      "code": "OGS-001/024",
-      "collectorNumber": 1,
-      "name": "Annie",
-      "set": "Proving Grounds",
-      "setId": "OGS",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Fury"
-      ],
-      "energy": "5",
-      "might": "4",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Annie",
-        "Noxus"
-      ],
-      "illustrator": "Polar Engine Studio",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/532d75dc36a16eb5954253a77366fcceac7aec62-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Annie, Fiery. Your spells and abilities deal 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)",
-      "abilityHtml": "<p>Your spells and abilities deal 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogs-010-024",
       "code": "OGS-010/024",
       "collectorNumber": 10,
@@ -1052,30 +1025,30 @@
       "effectHtml": null
     },
     {
-      "id": "sfd-049-221",
-      "code": "SFD-049/221",
-      "collectorNumber": 49,
-      "name": "Aphelios",
-      "set": "Spiritforged",
-      "setId": "SFD",
+      "id": "ogs-001-024",
+      "code": "OGS-001/024",
+      "collectorNumber": 1,
+      "name": "Annie",
+      "set": "Proving Grounds",
+      "setId": "OGS",
       "type": "Unit",
-      "rarity": "Rare",
+      "rarity": "Epic",
       "domains": [
-        "Calm"
+        "Fury"
       ],
-      "energy": "4",
+      "energy": "5",
       "might": "4",
       "mightBonus": null,
       "power": "1",
       "tags": [
-        "Aphelios",
-        "Mount Targon"
+        "Annie",
+        "Noxus"
       ],
-      "illustrator": "Six More Vodka",
+      "illustrator": "Polar Engine Studio",
       "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/df9ccbba2501059e5781a44434745a1f0e33ecae-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Aphelios, Exalted. When you attach an Equipment to me, choose one that hasn't been chosen this turn —\n- Ready 2 runes.\n- Channel 1 rune exhausted.\n- Buff a friendly unit.",
-      "abilityHtml": "<p>When you attach an Equipment to me, choose one that hasn't been chosen this turn —</p><ul><li>Ready 2 runes.</li><li>Channel 1 rune exhausted.</li><li>Buff a friendly unit.</li></ul>",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/532d75dc36a16eb5954253a77366fcceac7aec62-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Annie, Fiery. Your spells and abilities deal 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)",
+      "abilityHtml": "<p>Your spells and abilities deal 1 Bonus Damage. (Each instance of damage the spell deals is increased by 1.)</p>",
       "effectHtml": null
     },
     {
@@ -1101,6 +1074,33 @@
       "illustrator": "Masaki Hsu",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/58bb3f7a73a8aa38159cc63439e0483ca2574157-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Aphelios, Exalted. When you attach an Equipment to me, choose one that hasn't been chosen this turn —\n- Ready 2 runes.\n- Channel 1 rune exhausted.\n- Buff a friendly unit.",
+      "abilityHtml": "<p>When you attach an Equipment to me, choose one that hasn't been chosen this turn —</p><ul><li>Ready 2 runes.</li><li>Channel 1 rune exhausted.</li><li>Buff a friendly unit.</li></ul>",
+      "effectHtml": null
+    },
+    {
+      "id": "sfd-049-221",
+      "code": "SFD-049/221",
+      "collectorNumber": 49,
+      "name": "Aphelios",
+      "set": "Spiritforged",
+      "setId": "SFD",
+      "type": "Unit",
+      "rarity": "Rare",
+      "domains": [
+        "Calm"
+      ],
+      "energy": "4",
+      "might": "4",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Aphelios",
+        "Mount Targon"
+      ],
+      "illustrator": "Six More Vodka",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/df9ccbba2501059e5781a44434745a1f0e33ecae-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Aphelios, Exalted. When you attach an Equipment to me, choose one that hasn't been chosen this turn —\n- Ready 2 runes.\n- Channel 1 rune exhausted.\n- Buff a friendly unit.",
       "abilityHtml": "<p>When you attach an Equipment to me, choose one that hasn't been chosen this turn —</p><ul><li>Ready 2 runes.</li><li>Channel 1 rune exhausted.</li><li>Buff a friendly unit.</li></ul>",
       "effectHtml": null
@@ -1605,34 +1605,6 @@
       "effectHtml": null
     },
     {
-      "id": "sfd-177-221",
-      "code": "SFD-177/221",
-      "collectorNumber": 177,
-      "name": "Azir",
-      "set": "Spiritforged",
-      "setId": "SFD",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Order"
-      ],
-      "energy": "4",
-      "might": "4",
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Bird",
-        "Azir",
-        "Shurima"
-      ],
-      "illustrator": "Six More Vodka",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/088970936fc800bd2c4b36636734e16c83e1c8f9-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Azir, Sovereign. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I attack, you may move any number of your token units to this battlefield.",
-      "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)<br />When I attack, you may move any number of your token units to this battlefield.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "sfd-050a-221",
       "code": "SFD-050a/221",
       "collectorNumber": 50,
@@ -1686,6 +1658,34 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3c42c02f6ebd2e4d4a640c2c6ac081231439888e-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Azir, Ascendant. [C]: [Action] — Choose a unit you control. Move me to its location and it to my original location. If it's equipped, you may attach one of its Equipment to me. Use only once per turn.",
       "abilityHtml": "<p>:rb_rune_calm:: [Action] — Choose a unit you control. Move me to its location and it to my original location. If it's equipped, you may attach one of its Equipment to me. Use only once per turn.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "sfd-177-221",
+      "code": "SFD-177/221",
+      "collectorNumber": 177,
+      "name": "Azir",
+      "set": "Spiritforged",
+      "setId": "SFD",
+      "type": "Unit",
+      "rarity": "Epic",
+      "domains": [
+        "Order"
+      ],
+      "energy": "4",
+      "might": "4",
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Bird",
+        "Azir",
+        "Shurima"
+      ],
+      "illustrator": "Six More Vodka",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/088970936fc800bd2c4b36636734e16c83e1c8f9-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Azir, Sovereign. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I attack, you may move any number of your token units to this battlefield.",
+      "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_order: as an additional cost to have me enter ready.)<br />When I attack, you may move any number of your token units to this battlefield.</p>",
       "effectHtml": null
     },
     {
@@ -2228,33 +2228,6 @@
       "effectHtml": null
     },
     {
-      "id": "sfd-250-221",
-      "code": "SFD-250/221",
-      "collectorNumber": 250,
-      "name": "Battle Mistress",
-      "set": "Spiritforged",
-      "setId": "SFD",
-      "type": "Legend",
-      "rarity": "Showcase",
-      "domains": [
-        "Body",
-        "Chaos"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Sivir"
-      ],
-      "illustrator": "Envar Studio",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/743887bce0027f549b85bf023475c3587a005581-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Battle Mistress. When you recycle a rune, you may exhaust me to play a Gold gear token exhausted.\nWhen one or more enemy units die, ready me.",
-      "abilityHtml": "<p>When you recycle a rune, you may exhaust me to play a Gold gear token exhausted.<br />When one or more enemy units die, ready me.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "sfd-203-221",
       "code": "SFD-203/221",
       "collectorNumber": 203,
@@ -2277,6 +2250,33 @@
       "illustrator": "Zhongqi Li",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fd060882c32a8deac04aea4241c6ab7b97236a05-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Battle Mistress. When you recycle a rune, you may exhaust me to play a Gold gear token exhausted.\nWhen one or more enemy units die, ready me.",
+      "abilityHtml": "<p>When you recycle a rune, you may exhaust me to play a Gold gear token exhausted.<br />When one or more enemy units die, ready me.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "sfd-250-221",
+      "code": "SFD-250/221",
+      "collectorNumber": 250,
+      "name": "Battle Mistress",
+      "set": "Spiritforged",
+      "setId": "SFD",
+      "type": "Legend",
+      "rarity": "Showcase",
+      "domains": [
+        "Body",
+        "Chaos"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Sivir"
+      ],
+      "illustrator": "Envar Studio",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/743887bce0027f549b85bf023475c3587a005581-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Battle Mistress. When you recycle a rune, you may exhaust me to play a Gold gear token exhausted.\nWhen one or more enemy units die, ready me.",
       "abilityHtml": "<p>When you recycle a rune, you may exhaust me to play a Gold gear token exhausted.<br />When one or more enemy units die, ready me.</p>",
       "effectHtml": null
@@ -2772,33 +2772,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-304-298",
-      "code": "OGN-304/298",
-      "collectorNumber": 304,
-      "name": "Blind Monk",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Legend",
-      "rarity": "Showcase",
-      "domains": [
-        "Calm",
-        "Body"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Lee Sin"
-      ],
-      "illustrator": "Loiza Chen",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fb6316c39ad2a00d65f4b6cc823cbdd61cadda3b-1488x2078.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Blind Monk. [1], [T]: Buff a friendly unit. (If it doesn't have a buff, it gets a +1 [S] buff.)",
-      "abilityHtml": "<p>:rb_energy_1:, :rb_exhaust:: Buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff.)</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogn-304-star-298",
       "code": "OGN-304*/298",
       "collectorNumber": 304,
@@ -2848,6 +2821,33 @@
       "illustrator": "Six More Vodka",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ffe064e002d3b9a366748eb85102a769b2545835-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Blind Monk. [1], [T]: Buff a friendly unit. (If it doesn't have a buff, it gets a +1 [S] buff.)",
+      "abilityHtml": "<p>:rb_energy_1:, :rb_exhaust:: Buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff.)</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-304-298",
+      "code": "OGN-304/298",
+      "collectorNumber": 304,
+      "name": "Blind Monk",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Legend",
+      "rarity": "Showcase",
+      "domains": [
+        "Calm",
+        "Body"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Lee Sin"
+      ],
+      "illustrator": "Loiza Chen",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fb6316c39ad2a00d65f4b6cc823cbdd61cadda3b-1488x2078.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Blind Monk. [1], [T]: Buff a friendly unit. (If it doesn't have a buff, it gets a +1 [S] buff.)",
       "abilityHtml": "<p>:rb_energy_1:, :rb_exhaust:: Buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff.)</p>",
       "effectHtml": null
@@ -3058,6 +3058,30 @@
       "effectHtml": null
     },
     {
+      "id": "unl-087a-219",
+      "code": "UNL-087a/219",
+      "collectorNumber": 87,
+      "name": "Blue Sentinel",
+      "set": "Unleashed",
+      "setId": "UNL",
+      "type": "Unit",
+      "rarity": "Epic",
+      "domains": [
+        "Mind"
+      ],
+      "energy": "4",
+      "might": "4",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [],
+      "illustrator": "Grafit Studio",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d6c05e13dfb9ce38cc4d829d33acaf1560abe62a-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Blue Sentinel. [Shield 2]\nYour hold effects for holding here trigger an additional time.\nWhen I hold, [Add] [A] at the start of your next Main Phase.",
+      "abilityHtml": "<p>[Shield 2]<br />Your hold effects for holding here trigger an additional time.<br />When I hold, [Add] :rb_rune_rainbow: at the start of your next Main Phase.</p>",
+      "effectHtml": null
+    },
+    {
       "id": "unl-087-219",
       "code": "UNL-087/219",
       "collectorNumber": 87,
@@ -3081,30 +3105,6 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bec7e8f108fac2d9c94db01c85cf143133d13325-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Blue Sentinel. [Shield 2] (+2 [S] while I'm a defender.)\nYour hold effects for holding here trigger an additional time.\nWhen I hold, [Add] [A] at the start of your next Main Phase. (Abilities that add resources can't be reacted to.)",
       "abilityHtml": "<p>[Shield 2] (+2 :rb_might: while I'm a defender.)<br />Your hold effects for holding here trigger an additional time.<br />When I hold, [Add] :rb_rune_rainbow: at the start of your next Main Phase. (Abilities that add resources can't be reacted to.)</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "unl-087a-219",
-      "code": "UNL-087a/219",
-      "collectorNumber": 87,
-      "name": "Blue Sentinel",
-      "set": "Unleashed",
-      "setId": "UNL",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Mind"
-      ],
-      "energy": "4",
-      "might": "4",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [],
-      "illustrator": "Grafit Studio",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d6c05e13dfb9ce38cc4d829d33acaf1560abe62a-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Blue Sentinel. [Shield 2]\nYour hold effects for holding here trigger an additional time.\nWhen I hold, [Add] [A] at the start of your next Main Phase.",
-      "abilityHtml": "<p>[Shield 2]<br />Your hold effects for holding here trigger an additional time.<br />When I hold, [Add] :rb_rune_rainbow: at the start of your next Main Phase.</p>",
       "effectHtml": null
     },
     {
@@ -3695,6 +3695,33 @@
       "effectHtml": null
     },
     {
+      "id": "ven-190-star-166",
+      "code": "VEN-190*/166",
+      "collectorNumber": 190,
+      "name": "Butcher of the Sands",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Legend",
+      "rarity": "Rare",
+      "domains": [
+        "Fury",
+        "Body"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Renekton"
+      ],
+      "illustrator": "Edgardo Monteon",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b9270494d2c18525e766b2ffa23a7c99ad9f994f-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Butcher of the Sands. [Reaction][>] [A][A], [T]: [Add] [2]. Spend this Energy only to play units or activated abilities of units.",
+      "abilityHtml": "<p>[Reaction][&gt;] :rb_rune_rainbow::rb_rune_rainbow:, :rb_exhaust:: [Add] :rb_energy_2:. Spend this Energy only to play units or activated abilities of units.</p>",
+      "effectHtml": null
+    },
+    {
       "id": "ven-190-166",
       "code": "VEN-190/166",
       "collectorNumber": 190,
@@ -3744,33 +3771,6 @@
       "illustrator": "Envar Studio",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7620595b36b40a0c3d05c4c5469b016d1c18c6f2-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Butcher of the Sands. [Reaction][>] [A][A], [T]: [Add] [2]. Spend this Energy only to play units or activated abilities of units.",
-      "abilityHtml": "<p>[Reaction][&gt;] :rb_rune_rainbow::rb_rune_rainbow:, :rb_exhaust:: [Add] :rb_energy_2:. Spend this Energy only to play units or activated abilities of units.</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "ven-190-star-166",
-      "code": "VEN-190*/166",
-      "collectorNumber": 190,
-      "name": "Butcher of the Sands",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Legend",
-      "rarity": "Rare",
-      "domains": [
-        "Fury",
-        "Body"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Renekton"
-      ],
-      "illustrator": "Edgardo Monteon",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b9270494d2c18525e766b2ffa23a7c99ad9f994f-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Butcher of the Sands. [Reaction][>] [A][A], [T]: [Add] [2]. Spend this Energy only to play units or activated abilities of units.",
       "abilityHtml": "<p>[Reaction][&gt;] :rb_rune_rainbow::rb_rune_rainbow:, :rb_exhaust:: [Add] :rb_energy_2:. Spend this Energy only to play units or activated abilities of units.</p>",
       "effectHtml": null
@@ -3875,30 +3875,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-042-298",
-      "code": "OGN-042/298",
-      "collectorNumber": 42,
-      "name": "Calm Rune",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Rune",
-      "rarity": "Common",
-      "domains": [
-        "Calm"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [],
-      "illustrator": "Greg Ghielmetti & Leah Chen",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0a0e8c3d16c2595e2f8efcc2b1466226539b506c-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Rune: Calm Rune.",
-      "abilityHtml": null,
-      "effectHtml": null
-    },
-    {
       "id": "ogn-042a-298",
       "code": "OGN-042a/298",
       "collectorNumber": 42,
@@ -3918,6 +3894,30 @@
       "illustrator": "Zhongqi Li",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/88187b586b9b3cc2f48fd20c806dd5fc5e1bfc71-1488x2078.png?accountingTag=RB",
+      "rulesText": "Riftbound Rune: Calm Rune.",
+      "abilityHtml": null,
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-042-298",
+      "code": "OGN-042/298",
+      "collectorNumber": 42,
+      "name": "Calm Rune",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Rune",
+      "rarity": "Common",
+      "domains": [
+        "Calm"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [],
+      "illustrator": "Greg Ghielmetti & Leah Chen",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0a0e8c3d16c2595e2f8efcc2b1466226539b506c-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Rune: Calm Rune.",
       "abilityHtml": null,
       "effectHtml": null
@@ -4202,30 +4202,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-166a-298",
-      "code": "OGN-166a/298",
-      "collectorNumber": 166,
-      "name": "Chaos Rune",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Rune",
-      "rarity": "Showcase",
-      "domains": [
-        "Chaos"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [],
-      "illustrator": "Fairfoul",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fbcde2f71fcc06fb8afc83855e24447a393f8943-1488x2078.png?accountingTag=RB",
-      "rulesText": "Riftbound Rune: Chaos Rune.",
-      "abilityHtml": null,
-      "effectHtml": null
-    },
-    {
       "id": "ogn-166-298",
       "code": "OGN-166/298",
       "collectorNumber": 166,
@@ -4245,6 +4221,30 @@
       "illustrator": "Greg Ghielmetti & Leah Chen",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/daf23b0deaa5e1a5a5d310b59e9ad25d1bd70363-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Rune: Chaos Rune.",
+      "abilityHtml": null,
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-166a-298",
+      "code": "OGN-166a/298",
+      "collectorNumber": 166,
+      "name": "Chaos Rune",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Rune",
+      "rarity": "Showcase",
+      "domains": [
+        "Chaos"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [],
+      "illustrator": "Fairfoul",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/fbcde2f71fcc06fb8afc83855e24447a393f8943-1488x2078.png?accountingTag=RB",
       "rulesText": "Riftbound Rune: Chaos Rune.",
       "abilityHtml": null,
       "effectHtml": null
@@ -10926,6 +10926,33 @@
       "effectHtml": "<p>I have +2 :rb_might: while I'm at a battlefield with exactly one other unit you control.</p>"
     },
     {
+      "id": "ogn-253-298",
+      "code": "OGN-253/298",
+      "collectorNumber": 253,
+      "name": "Hand of Noxus",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Legend",
+      "rarity": "Rare",
+      "domains": [
+        "Fury",
+        "Order"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Darius"
+      ],
+      "illustrator": "Six More Vodka",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5b9a904048b7fb936377844ec2d31564b7fedf81-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Hand of Noxus. [T]: [Reaction], [Legion] — [Add] [1]. (Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.)",
+      "abilityHtml": "<p>:rb_exhaust:: [Reaction], [Legion] — [Add] :rb_energy_1:. (Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.)</p>",
+      "effectHtml": null
+    },
+    {
       "id": "ogn-302-star-298",
       "code": "OGN-302*/298",
       "collectorNumber": 302,
@@ -10975,33 +11002,6 @@
       "illustrator": "Peter Kim",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/37d43efe09ccfe5d72ce37fdc27599bd5ef736af-1488x2078.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Hand of Noxus. [T]: [Reaction], [Legion] — [Add] [1]. (Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.)",
-      "abilityHtml": "<p>:rb_exhaust:: [Reaction], [Legion] — [Add] :rb_energy_1:. (Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.)</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "ogn-253-298",
-      "code": "OGN-253/298",
-      "collectorNumber": 253,
-      "name": "Hand of Noxus",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Legend",
-      "rarity": "Rare",
-      "domains": [
-        "Fury",
-        "Order"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Darius"
-      ],
-      "illustrator": "Six More Vodka",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5b9a904048b7fb936377844ec2d31564b7fedf81-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Hand of Noxus. [T]: [Reaction], [Legion] — [Add] [1]. (Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.)",
       "abilityHtml": "<p>:rb_exhaust:: [Reaction], [Legion] — [Add] :rb_energy_1:. (Abilities that add resources can't be reacted to. Get the effect if you've played a card this turn.)</p>",
       "effectHtml": null
@@ -11345,33 +11345,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-308-star-298",
-      "code": "OGN-308*/298",
-      "collectorNumber": 308,
-      "name": "Herald of the Arcane",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Legend",
-      "rarity": "Showcase",
-      "domains": [
-        "Mind",
-        "Order"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Viktor"
-      ],
-      "illustrator": "Rudy Siswanto",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e345a5fc347e6a5835f2afa33492058fdbfcb169-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Herald of the Arcane. [1], [T]: Play a 1 [S] Recruit unit token.",
-      "abilityHtml": "<p>:rb_energy_1:, :rb_exhaust:: Play a 1 :rb_might: Recruit unit token.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogn-308-298",
       "code": "OGN-308/298",
       "collectorNumber": 308,
@@ -11421,6 +11394,33 @@
       "illustrator": "Fortiche Production",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/913236dabf1e4f71650bbba46870fff8163e2eff-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Herald of the Arcane. [1], [T]: Play a 1 [S] Recruit unit token.",
+      "abilityHtml": "<p>:rb_energy_1:, :rb_exhaust:: Play a 1 :rb_might: Recruit unit token.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-308-star-298",
+      "code": "OGN-308*/298",
+      "collectorNumber": 308,
+      "name": "Herald of the Arcane",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Legend",
+      "rarity": "Showcase",
+      "domains": [
+        "Mind",
+        "Order"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Viktor"
+      ],
+      "illustrator": "Rudy Siswanto",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e345a5fc347e6a5835f2afa33492058fdbfcb169-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Herald of the Arcane. [1], [T]: Play a 1 [S] Recruit unit token.",
       "abilityHtml": "<p>:rb_energy_1:, :rb_exhaust:: Play a 1 :rb_might: Recruit unit token.</p>",
       "effectHtml": null
@@ -12193,33 +12193,6 @@
       "effectHtml": null
     },
     {
-      "id": "sfd-141a-221",
-      "code": "SFD-141a/221",
-      "collectorNumber": 141,
-      "name": "Irelia",
-      "set": "Spiritforged",
-      "setId": "SFD",
-      "type": "Unit",
-      "rarity": "Showcase",
-      "domains": [
-        "Chaos"
-      ],
-      "energy": "4",
-      "might": "4",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Irelia",
-        "Ionia"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/08419c2b5b7aa7e5f63854e324d5dabe0b5997a2-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Irelia, Graceful. Your spells that choose me cost [1] or [A] less.",
-      "abilityHtml": "<p>Your spells that choose me cost :rb_energy_1: or :rb_rune_rainbow: less.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "sfd-141-221",
       "code": "SFD-141/221",
       "collectorNumber": 141,
@@ -12352,6 +12325,33 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e064a9017b5d6bf0e18c4452acfca4ed8c279657-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Irelia, Fervent. [Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\nWhen you choose or ready me, give me +1 [S] this turn.",
       "abilityHtml": "<p>[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />When you choose or ready me, give me +1 :rb_might: this turn.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "sfd-141a-221",
+      "code": "SFD-141a/221",
+      "collectorNumber": 141,
+      "name": "Irelia",
+      "set": "Spiritforged",
+      "setId": "SFD",
+      "type": "Unit",
+      "rarity": "Showcase",
+      "domains": [
+        "Chaos"
+      ],
+      "energy": "4",
+      "might": "4",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Irelia",
+        "Ionia"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/08419c2b5b7aa7e5f63854e324d5dabe0b5997a2-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Irelia, Graceful. Your spells that choose me cost [1] or [A] less.",
+      "abilityHtml": "<p>Your spells that choose me cost :rb_energy_1: or :rb_rune_rainbow: less.</p>",
       "effectHtml": null
     },
     {
@@ -12721,33 +12721,6 @@
       "effectHtml": null
     },
     {
-      "id": "sfd-119-221",
-      "code": "SFD-119/221",
-      "collectorNumber": 119,
-      "name": "Jax",
-      "set": "Spiritforged",
-      "setId": "SFD",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Body"
-      ],
-      "energy": "4",
-      "might": "3",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Jax",
-        "Icathia"
-      ],
-      "illustrator": "Envar Studio",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e63ab3370a6e4ce4baddfba12ab92468f6cc9541-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Jax, Unrelenting. [Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen you attach an Equipment to me, you may pay [1] to draw 1.",
-      "abilityHtml": "<p>[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)<br />When you attach an Equipment to me, you may pay :rb_energy_1: to draw 1.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "sfd-054a-221",
       "code": "SFD-054a/221",
       "collectorNumber": 54,
@@ -12802,6 +12775,33 @@
       "effectHtml": null
     },
     {
+      "id": "sfd-119-221",
+      "code": "SFD-119/221",
+      "collectorNumber": 119,
+      "name": "Jax",
+      "set": "Spiritforged",
+      "setId": "SFD",
+      "type": "Unit",
+      "rarity": "Epic",
+      "domains": [
+        "Body"
+      ],
+      "energy": "4",
+      "might": "3",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Jax",
+        "Icathia"
+      ],
+      "illustrator": "Envar Studio",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e63ab3370a6e4ce4baddfba12ab92468f6cc9541-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Jax, Unrelenting. [Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for [A] less, even if it's already attached.)\nWhen you attach an Equipment to me, you may pay [1] to draw 1.",
+      "abilityHtml": "<p>[Weaponmaster] (When you play me, you may [Equip] one of your Equipment to me for :rb_rune_rainbow: less, even if it's already attached.)<br />When you attach an Equipment to me, you may pay :rb_energy_1: to draw 1.</p>",
+      "effectHtml": null
+    },
+    {
       "id": "sfd-084-221",
       "code": "SFD-084/221",
       "collectorNumber": 84,
@@ -12829,8 +12829,8 @@
       "effectHtml": null
     },
     {
-      "id": "ven-088-166",
-      "code": "VEN-088/166",
+      "id": "ven-088a-166",
+      "code": "VEN-088a/166",
       "collectorNumber": 88,
       "name": "Jayce",
       "set": "Vendetta",
@@ -12845,14 +12845,13 @@
       "mightBonus": null,
       "power": "1",
       "tags": [
-        "Jayce",
-        "Piltover"
+        "Jayce"
       ],
-      "illustrator": "League of Legends",
+      "illustrator": "League Splash Team",
       "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2dcecc0aab2b62e48388177cc27d220fd70b8a78-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Jayce, Hammer in Hand. When I become ready, choose one to give me this turn —\n- [Assault 2] (+2 [S] while I'm an attacker.)\n- [Deflect 2] (Opponents must pay [A][A] to choose me with a spell or ability.)\n- [Ganking] (I can move from battlefield to battlefield.)",
-      "abilityHtml": "<p>When I become ready, choose one to give me this turn —</p><ul><li>[Assault 2] (+2 :rb_might: while I'm an attacker.)</li><li>[Deflect 2] (Opponents must pay :rb_rune_rainbow::rb_rune_rainbow: to choose me with a spell or ability.)</li><li>[Ganking] (I can move from battlefield to battlefield.)</li></ul>",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69539dc4cfa14f1cfe9dc8b49c67344eca176a32-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Jayce, Hammer in Hand. When I become ready, choose one to give me this turn —\n- [Assault 2]\n- [Deflect 2]\n- [Ganking]",
+      "abilityHtml": "<p>When I become ready, choose one to give me this turn —</p><ul><li>[Assault 2]</li><li>[Deflect 2]</li><li>[Ganking]</li></ul>",
       "effectHtml": null
     },
     {
@@ -12883,6 +12882,32 @@
       "effectHtml": null
     },
     {
+      "id": "ven-068a-166",
+      "code": "VEN-068a/166",
+      "collectorNumber": 68,
+      "name": "Jayce",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Unit",
+      "rarity": "Epic",
+      "domains": [
+        "Mind"
+      ],
+      "energy": "6",
+      "might": "6",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Jayce"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/77439053c7f0cb76ff470d7ecaa57871448b1faf-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Jayce, Brilliant Inventor. When you play me or the first time you play a non-token gear each turn, you may ready something besides me that's exhausted.",
+      "abilityHtml": "<p>When you play me or the first time you play a non-token gear each turn, you may ready something besides me that's exhausted.</p>",
+      "effectHtml": null
+    },
+    {
       "id": "ven-068-166",
       "code": "VEN-068/166",
       "collectorNumber": 68,
@@ -12910,34 +12935,8 @@
       "effectHtml": null
     },
     {
-      "id": "ven-068a-166",
-      "code": "VEN-068a/166",
-      "collectorNumber": 68,
-      "name": "Jayce",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Mind"
-      ],
-      "energy": "6",
-      "might": "6",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Jayce"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/77439053c7f0cb76ff470d7ecaa57871448b1faf-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Jayce, Brilliant Inventor. When you play me or the first time you play a non-token gear each turn, you may ready something besides me that's exhausted.",
-      "abilityHtml": "<p>When you play me or the first time you play a non-token gear each turn, you may ready something besides me that's exhausted.</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "ven-088a-166",
-      "code": "VEN-088a/166",
+      "id": "ven-088-166",
+      "code": "VEN-088/166",
       "collectorNumber": 88,
       "name": "Jayce",
       "set": "Vendetta",
@@ -12952,13 +12951,14 @@
       "mightBonus": null,
       "power": "1",
       "tags": [
-        "Jayce"
+        "Jayce",
+        "Piltover"
       ],
-      "illustrator": "League Splash Team",
+      "illustrator": "League of Legends",
       "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/69539dc4cfa14f1cfe9dc8b49c67344eca176a32-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Jayce, Hammer in Hand. When I become ready, choose one to give me this turn —\n- [Assault 2]\n- [Deflect 2]\n- [Ganking]",
-      "abilityHtml": "<p>When I become ready, choose one to give me this turn —</p><ul><li>[Assault 2]</li><li>[Deflect 2]</li><li>[Ganking]</li></ul>",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2dcecc0aab2b62e48388177cc27d220fd70b8a78-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Jayce, Hammer in Hand. When I become ready, choose one to give me this turn —\n- [Assault 2] (+2 [S] while I'm an attacker.)\n- [Deflect 2] (Opponents must pay [A][A] to choose me with a spell or ability.)\n- [Ganking] (I can move from battlefield to battlefield.)",
+      "abilityHtml": "<p>When I become ready, choose one to give me this turn —</p><ul><li>[Assault 2] (+2 :rb_might: while I'm an attacker.)</li><li>[Deflect 2] (Opponents must pay :rb_rune_rainbow::rb_rune_rainbow: to choose me with a spell or ability.)</li><li>[Ganking] (I can move from battlefield to battlefield.)</li></ul>",
       "effectHtml": null
     },
     {
@@ -13257,30 +13257,30 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-112a-298",
-      "code": "OGN-112a/298",
-      "collectorNumber": 112,
+      "id": "ogn-039-298",
+      "code": "OGN-039/298",
+      "collectorNumber": 39,
       "name": "Kai'Sa",
       "set": "Origins",
       "setId": "OGN",
       "type": "Unit",
-      "rarity": "Showcase",
+      "rarity": "Epic",
       "domains": [
-        "Mind"
+        "Fury"
       ],
-      "energy": "6",
-      "might": "6",
+      "energy": "4",
+      "might": "4",
       "mightBonus": null,
-      "power": "1",
+      "power": null,
       "tags": [
         "Kai'Sa",
         "The Void"
       ],
       "illustrator": "League Splash Team",
       "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2c8c9619d4afd081de548b511000f7c4b849ec1e-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Kai'Sa, Evolutionary. [Ganking] (I can move from battlefield to battlefield.)\nWhen I conquer, you may play a spell from your trash with Energy cost less than your points without paying its Energy cost. Then recycle it. (You must still pay its Power cost.)",
-      "abilityHtml": "<p>[Ganking] (I can move from battlefield to battlefield.)<br />When I conquer, you may play a spell from your trash with Energy cost less than your points without paying its Energy cost. Then recycle it. (You must still pay its Power cost.)</p>",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3d942c02ad4e96a36dba14d663c5105bb6614500-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Kai'Sa, Survivor. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I conquer, draw 1.",
+      "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />When I conquer, draw 1.</p>",
       "effectHtml": null
     },
     {
@@ -13311,33 +13311,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-039-298",
-      "code": "OGN-039/298",
-      "collectorNumber": 39,
-      "name": "Kai'Sa",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Fury"
-      ],
-      "energy": "4",
-      "might": "4",
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Kai'Sa",
-        "The Void"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3d942c02ad4e96a36dba14d663c5105bb6614500-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Kai'Sa, Survivor. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I conquer, draw 1.",
-      "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />When I conquer, draw 1.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogn-039a-298",
       "code": "OGN-039a/298",
       "collectorNumber": 39,
@@ -13362,6 +13335,33 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ad69bde670ce218adee1d2a618a7295d2fb7bd4c-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Kai'Sa, Survivor. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I conquer, draw 1.",
       "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />When I conquer, draw 1.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-112a-298",
+      "code": "OGN-112a/298",
+      "collectorNumber": 112,
+      "name": "Kai'Sa",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Unit",
+      "rarity": "Showcase",
+      "domains": [
+        "Mind"
+      ],
+      "energy": "6",
+      "might": "6",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Kai'Sa",
+        "The Void"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2c8c9619d4afd081de548b511000f7c4b849ec1e-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Kai'Sa, Evolutionary. [Ganking] (I can move from battlefield to battlefield.)\nWhen I conquer, you may play a spell from your trash with Energy cost less than your points without paying its Energy cost. Then recycle it. (You must still pay its Power cost.)",
+      "abilityHtml": "<p>[Ganking] (I can move from battlefield to battlefield.)<br />When I conquer, you may play a spell from your trash with Energy cost less than your points without paying its Energy cost. Then recycle it. (You must still pay its Power cost.)</p>",
       "effectHtml": null
     },
     {
@@ -14447,6 +14447,33 @@
       "effectHtml": null
     },
     {
+      "id": "unl-172a-219",
+      "code": "UNL-172a/219",
+      "collectorNumber": 172,
+      "name": "LeBlanc",
+      "set": "Unleashed",
+      "setId": "UNL",
+      "type": "Unit",
+      "rarity": "Rare",
+      "domains": [
+        "Order"
+      ],
+      "energy": "3",
+      "might": "3",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Noxus",
+        "LeBlanc"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d18932d3dddd203c6f68f30279f3886ec2e7130a-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: LeBlanc, Fragmented. [Assault]\n[Deathknell][>] Draw 1. If it's your Beginning Phase, draw 2 instead.",
+      "abilityHtml": "<p>[Assault]<br />[Deathknell][&gt;] Draw 1. If it's your Beginning Phase, draw 2 instead.</p>",
+      "effectHtml": null
+    },
+    {
       "id": "unl-090-219",
       "code": "UNL-090/219",
       "collectorNumber": 90,
@@ -14498,33 +14525,6 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/0850c122c2528fadab0fa95ae1fd329288208afe-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: LeBlanc, Everywhere at Once. [Backline]\nYour [Temporary] effects at my battlefield don't trigger.",
       "abilityHtml": "<p>[Backline]<br />Your [Temporary] effects at my battlefield don't trigger.</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "unl-172a-219",
-      "code": "UNL-172a/219",
-      "collectorNumber": 172,
-      "name": "LeBlanc",
-      "set": "Unleashed",
-      "setId": "UNL",
-      "type": "Unit",
-      "rarity": "Rare",
-      "domains": [
-        "Order"
-      ],
-      "energy": "3",
-      "might": "3",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Noxus",
-        "LeBlanc"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d18932d3dddd203c6f68f30279f3886ec2e7130a-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: LeBlanc, Fragmented. [Assault]\n[Deathknell][>] Draw 1. If it's your Beginning Phase, draw 2 instead.",
-      "abilityHtml": "<p>[Assault]<br />[Deathknell][&gt;] Draw 1. If it's your Beginning Phase, draw 2 instead.</p>",
       "effectHtml": null
     },
     {
@@ -14798,33 +14798,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-238a-298",
-      "code": "OGN-238a/298",
-      "collectorNumber": 238,
-      "name": "Leona",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Unit",
-      "rarity": "Showcase",
-      "domains": [
-        "Order"
-      ],
-      "energy": "4",
-      "might": "4",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Leona",
-        "Mount Targon"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1ed0250f1d3bbbbde49b3ce1fc2e744e4da64baa-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Leona, Determined. [Shield] (+1 [S] while I'm a defender.)\nWhen I attack, stun an enemy unit here. (It doesn't deal combat damage this turn.)",
-      "abilityHtml": "<p>[Shield] (+1 :rb_might: while I'm a defender.)<br />When I attack, stun an enemy unit here. (It doesn't deal combat damage this turn.)</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogn-238-298",
       "code": "OGN-238/298",
       "collectorNumber": 238,
@@ -14847,6 +14820,33 @@
       "illustrator": "Six More Vodka",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/39a1e121031cfb4bdb009b071ed5d70411966cd9-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Leona, Determined. [Shield] (+1 [S] while I'm a defender.)\nWhen I attack, stun an enemy unit here. (It doesn't deal combat damage this turn.)",
+      "abilityHtml": "<p>[Shield] (+1 :rb_might: while I'm a defender.)<br />When I attack, stun an enemy unit here. (It doesn't deal combat damage this turn.)</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-238a-298",
+      "code": "OGN-238a/298",
+      "collectorNumber": 238,
+      "name": "Leona",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Unit",
+      "rarity": "Showcase",
+      "domains": [
+        "Order"
+      ],
+      "energy": "4",
+      "might": "4",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Leona",
+        "Mount Targon"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1ed0250f1d3bbbbde49b3ce1fc2e744e4da64baa-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Leona, Determined. [Shield] (+1 [S] while I'm a defender.)\nWhen I attack, stun an enemy unit here. (It doesn't deal combat damage this turn.)",
       "abilityHtml": "<p>[Shield] (+1 :rb_might: while I'm a defender.)<br />When I attack, stun an enemy unit here. (It doesn't deal combat damage this turn.)</p>",
       "effectHtml": null
@@ -15969,6 +15969,33 @@
       "effectHtml": null
     },
     {
+      "id": "ogs-004-024",
+      "code": "OGS-004/024",
+      "collectorNumber": 4,
+      "name": "Master Yi",
+      "set": "Proving Grounds",
+      "setId": "OGS",
+      "type": "Unit",
+      "rarity": "Rare",
+      "domains": [
+        "Calm"
+      ],
+      "energy": "5",
+      "might": "4",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Master Yi",
+        "Ionia"
+      ],
+      "illustrator": "Kudos Productions",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5508566c8f05f09492148faa803332a731095eb7-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Yi, Meditative. While you have 8+ runes, I have +4 [S].",
+      "abilityHtml": "<p>While you have 8+ runes, I have +4 :rb_might:.</p>",
+      "effectHtml": null
+    },
+    {
       "id": "ogs-009-024",
       "code": "OGS-009/024",
       "collectorNumber": 9,
@@ -16047,33 +16074,6 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8a6d46d701eebaff0850a5b7400816517006d7e9-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Master Yi, Unstoppable. [Level 3][>] I cost [2][C] less. (While you have 3+ XP, get the effect.)\n[Level 6][>] I cost [4][C][C] less instead.\n[Level 11][>] I cost [6][C][C][C] less instead.\n[Level 16][>] I can't be chosen by enemy spells and abilities.",
       "abilityHtml": "<p>[Level 3][&gt;] I cost :rb_energy_2::rb_rune_calm: less. (While you have 3+ XP, get the effect.)<br />[Level 6][&gt;] I cost :rb_energy_4::rb_rune_calm::rb_rune_calm: less instead.<br />[Level 11][&gt;] I cost :rb_energy_6::rb_rune_calm::rb_rune_calm::rb_rune_calm: less instead.<br />[Level 16][&gt;] I can't be chosen by enemy spells and abilities.</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "ogs-004-024",
-      "code": "OGS-004/024",
-      "collectorNumber": 4,
-      "name": "Master Yi",
-      "set": "Proving Grounds",
-      "setId": "OGS",
-      "type": "Unit",
-      "rarity": "Rare",
-      "domains": [
-        "Calm"
-      ],
-      "energy": "5",
-      "might": "4",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Master Yi",
-        "Ionia"
-      ],
-      "illustrator": "Kudos Productions",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5508566c8f05f09492148faa803332a731095eb7-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Yi, Meditative. While you have 8+ runes, I have +4 [S].",
-      "abilityHtml": "<p>While you have 8+ runes, I have +4 :rb_might:.</p>",
       "effectHtml": null
     },
     {
@@ -16395,33 +16395,6 @@
       "effectHtml": null
     },
     {
-      "id": "ven-069-166",
-      "code": "VEN-069/166",
-      "collectorNumber": 69,
-      "name": "Mel",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Mind"
-      ],
-      "energy": "4",
-      "might": "4",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Noxus",
-        "Mel"
-      ],
-      "illustrator": "Pandart Studio",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7d794234d8efef9ad647046d1e2cd3736441899f-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Mel, Newly Awakened. When you play me, draw 1.\n[Empower] [3] ([3]: Empower me. Use only if not Empowered.)\n[Empowered][>] Your spells and abilities can't be countered. If a spell or ability you control would give -[S] to a unit it chooses, it gives an additional -1 [S].",
-      "abilityHtml": "<p>When you play me, draw 1.<br />[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] Your spells and abilities can't be countered. If a spell or ability you control would give -:rb_might: to a unit it chooses, it gives an additional -1 :rb_might:.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ven-110-166",
       "code": "VEN-110/166",
       "collectorNumber": 110,
@@ -16472,6 +16445,33 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2781dd135b5f42527df3bacee59ccee8684236fa-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Mel, Newly Awakened. When you play me, draw 1.\n[Empower] [3]\n[Empowered][>] Your spells and abilities can't be countered. If a spell or ability you control would give -[S] to a unit it chooses, it gives an additional -1 [S].",
       "abilityHtml": "<p>When you play me, draw 1.<br />[Empower] :rb_energy_3:<br />[Empowered][&gt;] Your spells and abilities can't be countered. If a spell or ability you control would give -:rb_might: to a unit it chooses, it gives an additional -1 :rb_might:.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ven-069-166",
+      "code": "VEN-069/166",
+      "collectorNumber": 69,
+      "name": "Mel",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Unit",
+      "rarity": "Epic",
+      "domains": [
+        "Mind"
+      ],
+      "energy": "4",
+      "might": "4",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Noxus",
+        "Mel"
+      ],
+      "illustrator": "Pandart Studio",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7d794234d8efef9ad647046d1e2cd3736441899f-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Mel, Newly Awakened. When you play me, draw 1.\n[Empower] [3] ([3]: Empower me. Use only if not Empowered.)\n[Empowered][>] Your spells and abilities can't be countered. If a spell or ability you control would give -[S] to a unit it chooses, it gives an additional -1 [S].",
+      "abilityHtml": "<p>When you play me, draw 1.<br />[Empower] :rb_energy_3: (:rb_energy_3:: Empower me. Use only if not Empowered.)<br />[Empowered][&gt;] Your spells and abilities can't be countered. If a spell or ability you control would give -:rb_might: to a unit it chooses, it gives an additional -1 :rb_might:.</p>",
       "effectHtml": null
     },
     {
@@ -16552,30 +16552,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-089-298",
-      "code": "OGN-089/298",
-      "collectorNumber": 89,
-      "name": "Mind Rune",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Rune",
-      "rarity": "Common",
-      "domains": [
-        "Mind"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [],
-      "illustrator": "Greg Ghielmetti & Leah Chen",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f99aa4874baaebd2e81798c8a3aa01c5900f6d30-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Rune: Mind Rune.",
-      "abilityHtml": null,
-      "effectHtml": null
-    },
-    {
       "id": "ogn-089a-298",
       "code": "OGN-089a/298",
       "collectorNumber": 89,
@@ -16595,6 +16571,30 @@
       "illustrator": "Fairfoul",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ecf8c8632c728520b51cd4bc79036677e96ebdfd-1488x2078.png?accountingTag=RB",
+      "rulesText": "Riftbound Rune: Mind Rune.",
+      "abilityHtml": null,
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-089-298",
+      "code": "OGN-089/298",
+      "collectorNumber": 89,
+      "name": "Mind Rune",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Rune",
+      "rarity": "Common",
+      "domains": [
+        "Mind"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [],
+      "illustrator": "Greg Ghielmetti & Leah Chen",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/f99aa4874baaebd2e81798c8a3aa01c5900f6d30-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Rune: Mind Rune.",
       "abilityHtml": null,
       "effectHtml": null
@@ -16754,34 +16754,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-193a-298",
-      "code": "OGN-193a/298",
-      "collectorNumber": 193,
-      "name": "Miss Fortune",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Unit",
-      "rarity": "Showcase",
-      "domains": [
-        "Chaos"
-      ],
-      "energy": "4",
-      "might": "4",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Pirate",
-        "Miss Fortune",
-        "Bilgewater"
-      ],
-      "illustrator": "Pandart Studio",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8fde2eeb516af55b24467569aa982037f5b67b89-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Miss Fortune, Buccaneer. You may play me to an open battlefield. \nFriendly units may be played to open battlefields.",
-      "abilityHtml": "<p>You may play me to an open battlefield.<br />Friendly units may be played to open battlefields.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogn-162a-298",
       "code": "OGN-162a/298",
       "collectorNumber": 162,
@@ -16807,6 +16779,34 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6a7a0dfa952259993fa0d8998a820585ff4f81c6-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Miss Fortune, Captain. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\n[Ganking] (I can move from battlefield to battlefield.)\nThe first time I move each turn, you may ready something else that's exhausted.",
       "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_body: as an additional cost to have me enter ready.)<br />[Ganking] (I can move from battlefield to battlefield.)<br />The first time I move each turn, you may ready something else that's exhausted.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-193a-298",
+      "code": "OGN-193a/298",
+      "collectorNumber": 193,
+      "name": "Miss Fortune",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Unit",
+      "rarity": "Showcase",
+      "domains": [
+        "Chaos"
+      ],
+      "energy": "4",
+      "might": "4",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Pirate",
+        "Miss Fortune",
+        "Bilgewater"
+      ],
+      "illustrator": "Pandart Studio",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8fde2eeb516af55b24467569aa982037f5b67b89-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Miss Fortune, Buccaneer. You may play me to an open battlefield. \nFriendly units may be played to open battlefields.",
+      "abilityHtml": "<p>You may play me to an open battlefield.<br />Friendly units may be played to open battlefields.</p>",
       "effectHtml": null
     },
     {
@@ -17456,33 +17456,6 @@
       "effectHtml": null
     },
     {
-      "id": "ven-046a-166",
-      "code": "VEN-046a/166",
-      "collectorNumber": 46,
-      "name": "Nasus",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Calm"
-      ],
-      "energy": "8",
-      "might": "8",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Dog",
-        "Nasus"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/014103b536a1c5aa2397f0952323375ac9b73d60-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Nasus, Ascended. [Deflect 2]\n[Empower] [8]\n[Empowered][>] When I conquer, you score 1 point.",
-      "abilityHtml": "<p>[Deflect 2]<br />[Empower] :rb_energy_8:<br />[Empowered][&gt;] When I conquer, you score 1 point.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ven-063-166",
       "code": "VEN-063/166",
       "collectorNumber": 63,
@@ -17535,6 +17508,33 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/c6bfe2146a52c3d8dd0230904435369ff29bac0e-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Nasus, Guardian of Knowledge. Once each turn, when an enemy unit here dies, channel 1 rune exhausted.",
       "abilityHtml": "<p>Once each turn, when an enemy unit here dies, channel 1 rune exhausted.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ven-046a-166",
+      "code": "VEN-046a/166",
+      "collectorNumber": 46,
+      "name": "Nasus",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Unit",
+      "rarity": "Epic",
+      "domains": [
+        "Calm"
+      ],
+      "energy": "8",
+      "might": "8",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Dog",
+        "Nasus"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/014103b536a1c5aa2397f0952323375ac9b73d60-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Nasus, Ascended. [Deflect 2]\n[Empower] [8]\n[Empowered][>] When I conquer, you score 1 point.",
+      "abilityHtml": "<p>[Deflect 2]<br />[Empower] :rb_energy_8:<br />[Empowered][&gt;] When I conquer, you score 1 point.</p>",
       "effectHtml": null
     },
     {
@@ -17672,6 +17672,33 @@
       "effectHtml": null
     },
     {
+      "id": "ogn-303-298",
+      "code": "OGN-303/298",
+      "collectorNumber": 303,
+      "name": "Nine-Tailed Fox",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Legend",
+      "rarity": "Showcase",
+      "domains": [
+        "Calm",
+        "Mind"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Ahri"
+      ],
+      "illustrator": "Airi Pan",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dc89c6a2415debd5bf504ed46843f5dcc1d9b815-1488x2078.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Nine-Tailed Fox. When an enemy unit attacks a battlefield you control, give it -1 [S] this turn, to a minimum of 1 [S].",
+      "abilityHtml": "<p>When an enemy unit attacks a battlefield you control, give it -1 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
+      "effectHtml": null
+    },
+    {
       "id": "ogn-255-298",
       "code": "OGN-255/298",
       "collectorNumber": 255,
@@ -17721,33 +17748,6 @@
       "illustrator": "Airi Pan",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e5fe571a8f09c0a9e76345ec32b446480f54617c-1488x2078.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Nine-Tailed Fox. When an enemy unit attacks a battlefield you control, give it -1 [S] this turn, to a minimum of 1 [S].",
-      "abilityHtml": "<p>When an enemy unit attacks a battlefield you control, give it -1 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "ogn-303-298",
-      "code": "OGN-303/298",
-      "collectorNumber": 303,
-      "name": "Nine-Tailed Fox",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Legend",
-      "rarity": "Showcase",
-      "domains": [
-        "Calm",
-        "Mind"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Ahri"
-      ],
-      "illustrator": "Airi Pan",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/dc89c6a2415debd5bf504ed46843f5dcc1d9b815-1488x2078.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Nine-Tailed Fox. When an enemy unit attacks a battlefield you control, give it -1 [S] this turn, to a minimum of 1 [S].",
       "abilityHtml": "<p>When an enemy unit attacks a battlefield you control, give it -1 :rb_might: this turn, to a minimum of 1 :rb_might:.</p>",
       "effectHtml": null
@@ -19434,9 +19434,9 @@
       "effectHtml": null
     },
     {
-      "id": "unl-227-219",
-      "code": "UNL-227/219",
-      "collectorNumber": 227,
+      "id": "unl-183-219",
+      "code": "UNL-183/219",
+      "collectorNumber": 183,
       "name": "Pridestalker",
       "set": "Unleashed",
       "setId": "UNL",
@@ -19453,9 +19453,9 @@
       "tags": [
         "Rengar"
       ],
-      "illustrator": "Duy Nguyen",
+      "illustrator": "Envar Studio",
       "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f80a016015ebc77bd3d23ce471e364d70698279-744x1039.png?accountingTag=RB",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b3d3085f62aee993b9f5b80d4659a88439da83be-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Pridestalker. When you play a unit, give a unit +1 [S] this turn.",
       "abilityHtml": "<p>When you play a unit, give a unit +1 :rb_might: this turn.</p>",
       "effectHtml": null
@@ -19488,9 +19488,9 @@
       "effectHtml": null
     },
     {
-      "id": "unl-183-219",
-      "code": "UNL-183/219",
-      "collectorNumber": 183,
+      "id": "unl-227-219",
+      "code": "UNL-227/219",
+      "collectorNumber": 227,
       "name": "Pridestalker",
       "set": "Unleashed",
       "setId": "UNL",
@@ -19507,9 +19507,9 @@
       "tags": [
         "Rengar"
       ],
-      "illustrator": "Envar Studio",
+      "illustrator": "Duy Nguyen",
       "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/b3d3085f62aee993b9f5b80d4659a88439da83be-744x1039.png?accountingTag=RB",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f80a016015ebc77bd3d23ce471e364d70698279-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Pridestalker. When you play a unit, give a unit +1 [S] this turn.",
       "abilityHtml": "<p>When you play a unit, give a unit +1 :rb_might: this turn.</p>",
       "effectHtml": null
@@ -19566,33 +19566,6 @@
       "effectHtml": null
     },
     {
-      "id": "sfd-248-221",
-      "code": "SFD-248/221",
-      "collectorNumber": 248,
-      "name": "Prodigal Explorer",
-      "set": "Spiritforged",
-      "setId": "SFD",
-      "type": "Legend",
-      "rarity": "Showcase",
-      "domains": [
-        "Mind",
-        "Chaos"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Ezreal"
-      ],
-      "illustrator": "Grafit Studio",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3ba4f1d3d61d80e7becc9d046e1974f17bff4b10-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Prodigal Explorer. [T]: [Reaction] — Draw 1. Use only if you've chosen enemy units and/or gear twice this turn with spells or unit abilities.",
-      "abilityHtml": "<p>:rb_exhaust:: [Reaction] — Draw 1. Use only if you've chosen enemy units and/or gear twice this turn with spells or unit abilities.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "sfd-199-221",
       "code": "SFD-199/221",
       "collectorNumber": 199,
@@ -19615,6 +19588,33 @@
       "illustrator": "Pandart Studio",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d0e143d9edbc14971b2a7b463b3c25b2b6a0c098-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Prodigal Explorer. [T]: [Reaction] — Draw 1. Use only if you've chosen enemy units and/or gear twice this turn with spells or unit abilities.",
+      "abilityHtml": "<p>:rb_exhaust:: [Reaction] — Draw 1. Use only if you've chosen enemy units and/or gear twice this turn with spells or unit abilities.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "sfd-248-221",
+      "code": "SFD-248/221",
+      "collectorNumber": 248,
+      "name": "Prodigal Explorer",
+      "set": "Spiritforged",
+      "setId": "SFD",
+      "type": "Legend",
+      "rarity": "Showcase",
+      "domains": [
+        "Mind",
+        "Chaos"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Ezreal"
+      ],
+      "illustrator": "Grafit Studio",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/3ba4f1d3d61d80e7becc9d046e1974f17bff4b10-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Prodigal Explorer. [T]: [Reaction] — Draw 1. Use only if you've chosen enemy units and/or gear twice this turn with spells or unit abilities.",
       "abilityHtml": "<p>:rb_exhaust:: [Reaction] — Draw 1. Use only if you've chosen enemy units and/or gear twice this turn with spells or unit abilities.</p>",
       "effectHtml": null
@@ -19874,33 +19874,6 @@
       "effectHtml": null
     },
     {
-      "id": "unl-145-219",
-      "code": "UNL-145/219",
-      "collectorNumber": 145,
-      "name": "Pyke",
-      "set": "Unleashed",
-      "setId": "UNL",
-      "type": "Unit",
-      "rarity": "Rare",
-      "domains": [
-        "Chaos"
-      ],
-      "energy": "3",
-      "might": "3",
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Pyke",
-        "Bilgewater"
-      ],
-      "illustrator": "Six More Vodka",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2eaa5396b1cac9b245bde5a56b87314f8ae76a38-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Pyke, Returned. [Hidden] (Hide now for [A] to react with later for [0].)\n[Backline] (I must be assigned combat damage last.)\nOnce each turn, when an enemy unit dies while I'm at a battlefield, play a Gold gear token exhausted. (It has \"[Reaction][>] Kill this, [T]: [Add] [A].\")",
-      "abilityHtml": "<p>[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)<br />[Backline] (I must be assigned combat damage last.)<br />Once each turn, when an enemy unit dies while I'm at a battlefield, play a Gold gear token exhausted. (It has &quot;[Reaction][&gt;] Kill this, :rb_exhaust:: [Add] :rb_rune_rainbow:.&quot;)</p>",
-      "effectHtml": null
-    },
-    {
       "id": "unl-028-219",
       "code": "UNL-028/219",
       "collectorNumber": 28,
@@ -19925,6 +19898,33 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/e0ce05148d7368070bcc8c0a43f66ece0834653a-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Pyke, Dockside Butcher. [Hidden] (Hide now for [A] to react with later for [0].)\n[Ganking] (I can move from battlefield to battlefield.)\nYou may pay [C] as an additional cost to play me.\nWhen you play me, if you paid the additional cost, ready me and give me +2 [S] this turn.",
       "abilityHtml": "<p>[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)<br />[Ganking] (I can move from battlefield to battlefield.)<br />You may pay :rb_rune_fury: as an additional cost to play me.<br />When you play me, if you paid the additional cost, ready me and give me +2 :rb_might: this turn.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "unl-145-219",
+      "code": "UNL-145/219",
+      "collectorNumber": 145,
+      "name": "Pyke",
+      "set": "Unleashed",
+      "setId": "UNL",
+      "type": "Unit",
+      "rarity": "Rare",
+      "domains": [
+        "Chaos"
+      ],
+      "energy": "3",
+      "might": "3",
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Pyke",
+        "Bilgewater"
+      ],
+      "illustrator": "Six More Vodka",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2eaa5396b1cac9b245bde5a56b87314f8ae76a38-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Pyke, Returned. [Hidden] (Hide now for [A] to react with later for [0].)\n[Backline] (I must be assigned combat damage last.)\nOnce each turn, when an enemy unit dies while I'm at a battlefield, play a Gold gear token exhausted. (It has \"[Reaction][>] Kill this, [T]: [Add] [A].\")",
+      "abilityHtml": "<p>[Hidden] (Hide now for :rb_rune_rainbow: to react with later for :rb_energy_0:.)<br />[Backline] (I must be assigned combat damage last.)<br />Once each turn, when an enemy unit dies while I'm at a battlefield, play a Gold gear token exhausted. (It has &quot;[Reaction][&gt;] Kill this, :rb_exhaust:: [Add] :rb_rune_rainbow:.&quot;)</p>",
       "effectHtml": null
     },
     {
@@ -20088,33 +20088,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-306-star-298",
-      "code": "OGN-306*/298",
-      "collectorNumber": 306,
-      "name": "Radiant Dawn",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Legend",
-      "rarity": "Showcase",
-      "domains": [
-        "Calm",
-        "Order"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Leona"
-      ],
-      "illustrator": "Su Ke",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd526a0f9177aaa9ec575add7d02e72b46520070-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Radiant Dawn. When you stun one or more enemy units, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [S] buff.)",
-      "abilityHtml": "<p>When you stun one or more enemy units, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff.)</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogn-261-298",
       "code": "OGN-261/298",
       "collectorNumber": 261,
@@ -20137,6 +20110,33 @@
       "illustrator": "Six More Vodka",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/822b8bc7987a47498550708b18ef166b121fd620-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Radiant Dawn. When you stun one or more enemy units, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [S] buff.)",
+      "abilityHtml": "<p>When you stun one or more enemy units, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff.)</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-306-star-298",
+      "code": "OGN-306*/298",
+      "collectorNumber": 306,
+      "name": "Radiant Dawn",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Legend",
+      "rarity": "Showcase",
+      "domains": [
+        "Calm",
+        "Order"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Leona"
+      ],
+      "illustrator": "Su Ke",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd526a0f9177aaa9ec575add7d02e72b46520070-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Radiant Dawn. When you stun one or more enemy units, buff a friendly unit. (If it doesn't have a buff, it gets a +1 [S] buff.)",
       "abilityHtml": "<p>When you stun one or more enemy units, buff a friendly unit. (If it doesn't have a buff, it gets a +1 :rb_might: buff.)</p>",
       "effectHtml": null
@@ -20773,33 +20773,6 @@
       "effectHtml": null
     },
     {
-      "id": "sfd-029a-221",
-      "code": "SFD-029a/221",
-      "collectorNumber": 29,
-      "name": "Rek'Sai",
-      "set": "Spiritforged",
-      "setId": "SFD",
-      "type": "Unit",
-      "rarity": "Showcase",
-      "domains": [
-        "Fury"
-      ],
-      "energy": "3",
-      "might": "3",
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Rek'Sai",
-        "The Void"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8ef898e761ab44c43cb1cba11109a02d9cb5ce10-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Rek'Sai, Breacher. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\n[Assault] (+1 [S] while I'm an attacker.)\nFriendly units played from anywhere other than a player's hand have [Accelerate].",
-      "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />[Assault] (+1 :rb_might: while I'm an attacker.)<br />Friendly units played from anywhere other than a player's hand have [Accelerate].</p>",
-      "effectHtml": null
-    },
-    {
       "id": "sfd-170-221",
       "code": "SFD-170/221",
       "collectorNumber": 170,
@@ -20824,6 +20797,33 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/5470aaad3bdb7ff5d2e605b07d93cedb7254c54d-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Rek'Sai, Swarm Queen. When I attack, you may reveal the top 2 cards of your Main Deck. You may play one. Then recycle the rest. If the played card is a unit, you may play it here.",
       "abilityHtml": "<p>When I attack, you may reveal the top 2 cards of your Main Deck. You may play one. Then recycle the rest. If the played card is a unit, you may play it here.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "sfd-029a-221",
+      "code": "SFD-029a/221",
+      "collectorNumber": 29,
+      "name": "Rek'Sai",
+      "set": "Spiritforged",
+      "setId": "SFD",
+      "type": "Unit",
+      "rarity": "Showcase",
+      "domains": [
+        "Fury"
+      ],
+      "energy": "3",
+      "might": "3",
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Rek'Sai",
+        "The Void"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8ef898e761ab44c43cb1cba11109a02d9cb5ce10-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Rek'Sai, Breacher. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\n[Assault] (+1 [S] while I'm an attacker.)\nFriendly units played from anywhere other than a player's hand have [Accelerate].",
+      "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />[Assault] (+1 :rb_might: while I'm an attacker.)<br />Friendly units played from anywhere other than a player's hand have [Accelerate].</p>",
       "effectHtml": null
     },
     {
@@ -20881,33 +20881,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-249-298",
-      "code": "OGN-249/298",
-      "collectorNumber": 249,
-      "name": "Relentless Storm",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Legend",
-      "rarity": "Rare",
-      "domains": [
-        "Fury",
-        "Body"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Volibear"
-      ],
-      "illustrator": "Grafit Studio",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8ef9c1827ccbba313d4591275e831854afffa5b1-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Relentless Storm. When you play a [Mighty] unit, you may exhaust me to channel 1 rune exhausted. (A unit is Mighty while it has 5+ [S].)",
-      "abilityHtml": "<p>When you play a [Mighty] unit, you may exhaust me to channel 1 rune exhausted. (A unit is Mighty while it has 5+ :rb_might:.)</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogn-300-star-298",
       "code": "OGN-300*/298",
       "collectorNumber": 300,
@@ -20930,6 +20903,33 @@
       "illustrator": "Alex Flores",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d5a629ce373a6add09bfacc4b584e509c6332334-1488x2078.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Relentless Storm. When you play a [Mighty] unit, you may exhaust me to channel 1 rune exhausted. (A unit is Mighty while it has 5+ [S].)",
+      "abilityHtml": "<p>When you play a [Mighty] unit, you may exhaust me to channel 1 rune exhausted. (A unit is Mighty while it has 5+ :rb_might:.)</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-249-298",
+      "code": "OGN-249/298",
+      "collectorNumber": 249,
+      "name": "Relentless Storm",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Legend",
+      "rarity": "Rare",
+      "domains": [
+        "Fury",
+        "Body"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Volibear"
+      ],
+      "illustrator": "Grafit Studio",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8ef9c1827ccbba313d4591275e831854afffa5b1-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Relentless Storm. When you play a [Mighty] unit, you may exhaust me to channel 1 rune exhausted. (A unit is Mighty while it has 5+ [S].)",
       "abilityHtml": "<p>When you play a [Mighty] unit, you may exhaust me to channel 1 rune exhausted. (A unit is Mighty while it has 5+ :rb_might:.)</p>",
       "effectHtml": null
@@ -21096,32 +21096,6 @@
       "effectHtml": null
     },
     {
-      "id": "ven-092a-166",
-      "code": "VEN-092a/166",
-      "collectorNumber": 92,
-      "name": "Renekton",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Body"
-      ],
-      "energy": "5",
-      "might": "4",
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Renekton"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ba4078d7df5cd5f661aa0c606794036338b64864-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Renekton, Brute. [1]: Give me +1 [S] this turn.\nWhen my Might becomes 10 or more, empower me.\n[Empowered][>] I have [Deflect] and [Ganking].",
-      "abilityHtml": "<p>:rb_energy_1:: Give me +1 :rb_might: this turn.<br />When my Might becomes 10 or more, empower me.<br />[Empowered][&gt;] I have [Deflect] and [Ganking].</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ven-177-166",
       "code": "VEN-177/166",
       "collectorNumber": 177,
@@ -21175,6 +21149,58 @@
       "effectHtml": null
     },
     {
+      "id": "ven-019a-166",
+      "code": "VEN-019a/166",
+      "collectorNumber": 19,
+      "name": "Renekton",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Unit",
+      "rarity": "Rare",
+      "domains": [
+        "Fury"
+      ],
+      "energy": "6",
+      "might": "6",
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Renekton"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cf5a7294a9ebd2d5a8727078efbfd2cf84f12e3e-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Renekton, Rage Fueled. [Accelerate]\nWhen I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.",
+      "abilityHtml": "<p>[Accelerate]<br />When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ven-092a-166",
+      "code": "VEN-092a/166",
+      "collectorNumber": 92,
+      "name": "Renekton",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Unit",
+      "rarity": "Epic",
+      "domains": [
+        "Body"
+      ],
+      "energy": "5",
+      "might": "4",
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Renekton"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/ba4078d7df5cd5f661aa0c606794036338b64864-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Renekton, Brute. [1]: Give me +1 [S] this turn.\nWhen my Might becomes 10 or more, empower me.\n[Empowered][>] I have [Deflect] and [Ganking].",
+      "abilityHtml": "<p>:rb_energy_1:: Give me +1 :rb_might: this turn.<br />When my Might becomes 10 or more, empower me.<br />[Empowered][&gt;] I have [Deflect] and [Ganking].</p>",
+      "effectHtml": null
+    },
+    {
       "id": "ven-019-166",
       "code": "VEN-019/166",
       "collectorNumber": 19,
@@ -21199,32 +21225,6 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2f6eb3e8328048ad52617c8639ecbe2c287efa36-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Renekton, Rage Fueled. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\nWhen I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.",
       "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "ven-019a-166",
-      "code": "VEN-019a/166",
-      "collectorNumber": 19,
-      "name": "Renekton",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Unit",
-      "rarity": "Rare",
-      "domains": [
-        "Fury"
-      ],
-      "energy": "6",
-      "might": "6",
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Renekton"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/cf5a7294a9ebd2d5a8727078efbfd2cf84f12e3e-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Renekton, Rage Fueled. [Accelerate]\nWhen I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.",
-      "abilityHtml": "<p>[Accelerate]<br />When I attack, if you control 4 or fewer runes, deal 2 to all enemy units here.</p>",
       "effectHtml": null
     },
     {
@@ -21256,6 +21256,34 @@
       "effectHtml": null
     },
     {
+      "id": "unl-024-219",
+      "code": "UNL-024/219",
+      "collectorNumber": 24,
+      "name": "Rengar",
+      "set": "Unleashed",
+      "setId": "UNL",
+      "type": "Unit",
+      "rarity": "Rare",
+      "domains": [
+        "Fury"
+      ],
+      "energy": "4",
+      "might": "4",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Cat",
+        "Rengar",
+        "Ixtal"
+      ],
+      "illustrator": "HCuu",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80c7d1c62301dd6e3ced910156f3fdeb8d34a621-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Rengar, Unseen. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\n[Assault 2] (+2 [S] while I'm an attacker.)\n[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\n[Ganking] (I can move from battlefield to battlefield.)",
+      "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />[Assault 2] (+2 :rb_might: while I'm an attacker.)<br />[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />[Ganking] (I can move from battlefield to battlefield.)</p>",
+      "effectHtml": null
+    },
+    {
       "id": "sfd-025-221",
       "code": "SFD-025/221",
       "collectorNumber": 25,
@@ -21284,19 +21312,19 @@
       "effectHtml": null
     },
     {
-      "id": "unl-024-219",
-      "code": "UNL-024/219",
-      "collectorNumber": 24,
+      "id": "unl-120a-219",
+      "code": "UNL-120a/219",
+      "collectorNumber": 120,
       "name": "Rengar",
       "set": "Unleashed",
       "setId": "UNL",
       "type": "Unit",
-      "rarity": "Rare",
+      "rarity": "Epic",
       "domains": [
-        "Fury"
+        "Body"
       ],
-      "energy": "4",
-      "might": "4",
+      "energy": "5",
+      "might": "6",
       "mightBonus": null,
       "power": "1",
       "tags": [
@@ -21304,11 +21332,11 @@
         "Rengar",
         "Ixtal"
       ],
-      "illustrator": "HCuu",
+      "illustrator": "League Splash Team",
       "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/80c7d1c62301dd6e3ced910156f3fdeb8d34a621-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Rengar, Unseen. [Accelerate] (You may pay [1][C] as an additional cost to have me enter ready.)\n[Assault 2] (+2 [S] while I'm an attacker.)\n[Deflect] (Opponents must pay [A] to choose me with a spell or ability.)\n[Ganking] (I can move from battlefield to battlefield.)",
-      "abilityHtml": "<p>[Accelerate] (You may pay :rb_energy_1::rb_rune_fury: as an additional cost to have me enter ready.)<br />[Assault 2] (+2 :rb_might: while I'm an attacker.)<br />[Deflect] (Opponents must pay :rb_rune_rainbow: to choose me with a spell or ability.)<br />[Ganking] (I can move from battlefield to battlefield.)</p>",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7e6d106e0170e7f45341c1755f829f286d782bb7-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Rengar, Trophy Hunter. [Ambush]\nI can be played to a battlefield where there are enemy units.",
+      "abilityHtml": "<p>[Ambush]<br />I can be played to a battlefield where there are enemy units.</p>",
       "effectHtml": null
     },
     {
@@ -21363,34 +21391,6 @@
       "illustrator": "莺之歌",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/1f16f5b1f980106057606a2faa3cce64fa4850e7-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Rengar, Trophy Hunter. [Ambush]\nI can be played to a battlefield where there are enemy units.",
-      "abilityHtml": "<p>[Ambush]<br />I can be played to a battlefield where there are enemy units.</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "unl-120a-219",
-      "code": "UNL-120a/219",
-      "collectorNumber": 120,
-      "name": "Rengar",
-      "set": "Unleashed",
-      "setId": "UNL",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Body"
-      ],
-      "energy": "5",
-      "might": "6",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Cat",
-        "Rengar",
-        "Ixtal"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7e6d106e0170e7f45341c1755f829f286d782bb7-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Rengar, Trophy Hunter. [Ambush]\nI can be played to a battlefield where there are enemy units.",
       "abilityHtml": "<p>[Ambush]<br />I can be played to a battlefield where there are enemy units.</p>",
       "effectHtml": null
@@ -21903,33 +21903,6 @@
       "effectHtml": null
     },
     {
-      "id": "ven-189-166",
-      "code": "VEN-189/166",
-      "collectorNumber": 189,
-      "name": "Rogue Assassin",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Legend",
-      "rarity": "Rare",
-      "domains": [
-        "Fury",
-        "Calm"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Akali"
-      ],
-      "illustrator": "Jessica Oyhenart",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7b0ec31df147b40bbb83c40644252b48a7619593-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Rogue Assassin. [Empower] [3][A]\n[Action][>] [T]: If it's your turn, move a friendly unit in a showdown to base and if I'm [Empowered], ready it.",
-      "abilityHtml": "<p>[Empower] :rb_energy_3::rb_rune_rainbow:<br />[Action][&gt;] :rb_exhaust:: If it's your turn, move a friendly unit in a showdown to base and if I'm [Empowered], ready it.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ven-189-star-166",
       "code": "VEN-189*/166",
       "collectorNumber": 189,
@@ -21952,6 +21925,33 @@
       "illustrator": "Jessica Oyhenart",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/d8262e7b24f26d1c9a18b13166d009aaf573e059-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Rogue Assassin. [Empower] [3][A]\n[Action][>] [T]: If it's your turn, move a friendly unit in a showdown to base and if I'm [Empowered], ready it.",
+      "abilityHtml": "<p>[Empower] :rb_energy_3::rb_rune_rainbow:<br />[Action][&gt;] :rb_exhaust:: If it's your turn, move a friendly unit in a showdown to base and if I'm [Empowered], ready it.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ven-189-166",
+      "code": "VEN-189/166",
+      "collectorNumber": 189,
+      "name": "Rogue Assassin",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Legend",
+      "rarity": "Rare",
+      "domains": [
+        "Fury",
+        "Calm"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Akali"
+      ],
+      "illustrator": "Jessica Oyhenart",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/7b0ec31df147b40bbb83c40644252b48a7619593-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Rogue Assassin. [Empower] [3][A]\n[Action][>] [T]: If it's your turn, move a friendly unit in a showdown to base and if I'm [Empowered], ready it.",
       "abilityHtml": "<p>[Empower] :rb_energy_3::rb_rune_rainbow:<br />[Action][&gt;] :rb_exhaust:: If it's your turn, move a friendly unit in a showdown to base and if I'm [Empowered], ready it.</p>",
       "effectHtml": null
@@ -22530,33 +22530,6 @@
       "effectHtml": null
     },
     {
-      "id": "unl-234-star-219",
-      "code": "UNL-234*/219",
-      "collectorNumber": 234,
-      "name": "Scorn of the Moon",
-      "set": "Unleashed",
-      "setId": "UNL",
-      "type": "Legend",
-      "rarity": "Rare",
-      "domains": [
-        "Mind",
-        "Chaos"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Diana"
-      ],
-      "illustrator": "Lisha Du",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9782a99fcb36b09adc5d97cdc29595682f26220d-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Scorn of the Moon. [Reaction][>] [T]: [Add] [1]. Spend this Energy only during showdowns.",
-      "abilityHtml": "<p>[Reaction][&gt;] :rb_exhaust:: [Add] :rb_energy_1:. Spend this Energy only during showdowns.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "unl-234-219",
       "code": "UNL-234/219",
       "collectorNumber": 234,
@@ -22579,6 +22552,33 @@
       "illustrator": "Lisha Du",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/8bd4006c34aa020211e501e3cb7ee14ab5b4c41f-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Scorn of the Moon. [Reaction][>] [T]: [Add] [1]. Spend this Energy only during showdowns.",
+      "abilityHtml": "<p>[Reaction][&gt;] :rb_exhaust:: [Add] :rb_energy_1:. Spend this Energy only during showdowns.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "unl-234-star-219",
+      "code": "UNL-234*/219",
+      "collectorNumber": 234,
+      "name": "Scorn of the Moon",
+      "set": "Unleashed",
+      "setId": "UNL",
+      "type": "Legend",
+      "rarity": "Rare",
+      "domains": [
+        "Mind",
+        "Chaos"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Diana"
+      ],
+      "illustrator": "Lisha Du",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/9782a99fcb36b09adc5d97cdc29595682f26220d-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Scorn of the Moon. [Reaction][>] [T]: [Add] [1]. Spend this Energy only during showdowns.",
       "abilityHtml": "<p>[Reaction][&gt;] :rb_exhaust:: [Add] :rb_energy_1:. Spend this Energy only during showdowns.</p>",
       "effectHtml": null
@@ -23157,30 +23157,30 @@
       "effectHtml": "<p>[Assault 2] (+2 :rb_might: while I'm an attacker.)</p>"
     },
     {
-      "id": "ogn-240-298",
-      "code": "OGN-240/298",
-      "collectorNumber": 240,
+      "id": "ogn-164a-298",
+      "code": "OGN-164a/298",
+      "collectorNumber": 164,
       "name": "Sett",
       "set": "Origins",
       "setId": "OGN",
       "type": "Unit",
-      "rarity": "Rare",
+      "rarity": "Showcase",
       "domains": [
-        "Order"
+        "Body"
       ],
-      "energy": "4",
-      "might": "5",
+      "energy": "5",
+      "might": "4",
       "mightBonus": null,
       "power": "1",
       "tags": [
         "Sett",
         "Ionia"
       ],
-      "illustrator": "League Splash Team",
+      "illustrator": "Kudos Productions",
       "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd43f1dcef824b66f1af994b59b961fc3705f9c3-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Sett, Kingpin. [Tank] (I must be assigned combat damage first.)\nI get +1 [S] for each buffed friendly unit at my battlefield.",
-      "abilityHtml": "<p>[Tank] (I must be assigned combat damage first.)<br />I get +1 :rb_might: for each buffed friendly unit at my battlefield.</p>",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/26e65c15e8a1ce1a9cd60d96345c7916e67e00ac-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Sett, Brawler. When I'm played and when I conquer, buff me. (If I don't have a buff, I get a +1 [S] buff.)\nSpend my buff: Give me +4 [S] this turn.",
+      "abilityHtml": "<p>When I'm played and when I conquer, buff me. (If I don't have a buff, I get a +1 :rb_might: buff.)<br />Spend my buff: Give me +4 :rb_might: this turn.</p>",
       "effectHtml": null
     },
     {
@@ -23211,33 +23211,6 @@
       "effectHtml": null
     },
     {
-      "id": "ogn-164a-298",
-      "code": "OGN-164a/298",
-      "collectorNumber": 164,
-      "name": "Sett",
-      "set": "Origins",
-      "setId": "OGN",
-      "type": "Unit",
-      "rarity": "Showcase",
-      "domains": [
-        "Body"
-      ],
-      "energy": "5",
-      "might": "4",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Sett",
-        "Ionia"
-      ],
-      "illustrator": "Kudos Productions",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/26e65c15e8a1ce1a9cd60d96345c7916e67e00ac-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Sett, Brawler. When I'm played and when I conquer, buff me. (If I don't have a buff, I get a +1 [S] buff.)\nSpend my buff: Give me +4 [S] this turn.",
-      "abilityHtml": "<p>When I'm played and when I conquer, buff me. (If I don't have a buff, I get a +1 :rb_might: buff.)<br />Spend my buff: Give me +4 :rb_might: this turn.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ogn-240a-298",
       "code": "OGN-240a/298",
       "collectorNumber": 240,
@@ -23260,6 +23233,33 @@
       "illustrator": "Wild Rift Splash Team",
       "orientation": "portrait",
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/010bbd89c60c57dc508f6b22201d31bb188f84d6-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Sett, Kingpin. [Tank] (I must be assigned combat damage first.)\nI get +1 [S] for each buffed friendly unit at my battlefield.",
+      "abilityHtml": "<p>[Tank] (I must be assigned combat damage first.)<br />I get +1 :rb_might: for each buffed friendly unit at my battlefield.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ogn-240-298",
+      "code": "OGN-240/298",
+      "collectorNumber": 240,
+      "name": "Sett",
+      "set": "Origins",
+      "setId": "OGN",
+      "type": "Unit",
+      "rarity": "Rare",
+      "domains": [
+        "Order"
+      ],
+      "energy": "4",
+      "might": "5",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Sett",
+        "Ionia"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bd43f1dcef824b66f1af994b59b961fc3705f9c3-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Sett, Kingpin. [Tank] (I must be assigned combat damage first.)\nI get +1 [S] for each buffed friendly unit at my battlefield.",
       "abilityHtml": "<p>[Tank] (I must be assigned combat damage first.)<br />I get +1 :rb_might: for each buffed friendly unit at my battlefield.</p>",
       "effectHtml": null
@@ -23727,60 +23727,6 @@
       "effectHtml": null
     },
     {
-      "id": "ven-138a-166",
-      "code": "VEN-138a/166",
-      "collectorNumber": 138,
-      "name": "Shen",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Unit",
-      "rarity": "Epic",
-      "domains": [
-        "Order"
-      ],
-      "energy": "6",
-      "might": "7",
-      "mightBonus": null,
-      "power": "2",
-      "tags": [
-        "Shen",
-        "Ionia"
-      ],
-      "illustrator": "League Splash Team",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf3f260e47de2887ba16fbc02e9df7f02e57a24a-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Shen, Leader of the Kinkou Order. [Shield]\nWhen I hold, if there is exactly one other unit you control here, you score 1 point.",
-      "abilityHtml": "<p>[Shield]<br />When I hold, if there is exactly one other unit you control here, you score 1 point.</p>",
-      "effectHtml": null
-    },
-    {
-      "id": "ven-042-166",
-      "code": "VEN-042/166",
-      "collectorNumber": 42,
-      "name": "Shen",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Unit",
-      "rarity": "Rare",
-      "domains": [
-        "Calm"
-      ],
-      "energy": "5",
-      "might": "6",
-      "mightBonus": null,
-      "power": "1",
-      "tags": [
-        "Shen",
-        "Ionia"
-      ],
-      "illustrator": "Six More Vodka",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bbe849918c7f4189379ae8957dd427a3f272a1a6-744x1039.png?accountingTag=RB",
-      "rulesText": "Riftbound Unit: Shen, Scourge of Shadows. When I hold, if there is exactly one other unit you control here, draw 1.",
-      "abilityHtml": "<p>When I hold, if there is exactly one other unit you control here, draw 1.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ven-138-166",
       "code": "VEN-138/166",
       "collectorNumber": 138,
@@ -23857,6 +23803,60 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/a4bac7b94b87fbb3227ecdccd9e2aa1231b655c8-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Unit: Shen, Scourge of Shadows. When I hold, if there is exactly one other unit you control here, draw 1.",
       "abilityHtml": "<p>When I hold, if there is exactly one other unit you control here, draw 1.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ven-042-166",
+      "code": "VEN-042/166",
+      "collectorNumber": 42,
+      "name": "Shen",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Unit",
+      "rarity": "Rare",
+      "domains": [
+        "Calm"
+      ],
+      "energy": "5",
+      "might": "6",
+      "mightBonus": null,
+      "power": "1",
+      "tags": [
+        "Shen",
+        "Ionia"
+      ],
+      "illustrator": "Six More Vodka",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bbe849918c7f4189379ae8957dd427a3f272a1a6-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Shen, Scourge of Shadows. When I hold, if there is exactly one other unit you control here, draw 1.",
+      "abilityHtml": "<p>When I hold, if there is exactly one other unit you control here, draw 1.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ven-138a-166",
+      "code": "VEN-138a/166",
+      "collectorNumber": 138,
+      "name": "Shen",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Unit",
+      "rarity": "Epic",
+      "domains": [
+        "Order"
+      ],
+      "energy": "6",
+      "might": "7",
+      "mightBonus": null,
+      "power": "2",
+      "tags": [
+        "Shen",
+        "Ionia"
+      ],
+      "illustrator": "League Splash Team",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/bf3f260e47de2887ba16fbc02e9df7f02e57a24a-744x1039.png?accountingTag=RB",
+      "rulesText": "Riftbound Unit: Shen, Leader of the Kinkou Order. [Shield]\nWhen I hold, if there is exactly one other unit you control here, you score 1 point.",
+      "abilityHtml": "<p>[Shield]<br />When I hold, if there is exactly one other unit you control here, you score 1 point.</p>",
       "effectHtml": null
     },
     {
@@ -24872,33 +24872,6 @@
       "effectHtml": null
     },
     {
-      "id": "ven-195-star-166",
-      "code": "VEN-195*/166",
-      "collectorNumber": 195,
-      "name": "Soul's Reflection",
-      "set": "Vendetta",
-      "setId": "VEN",
-      "type": "Legend",
-      "rarity": "Rare",
-      "domains": [
-        "Mind",
-        "Chaos"
-      ],
-      "energy": null,
-      "might": null,
-      "mightBonus": null,
-      "power": null,
-      "tags": [
-        "Mel"
-      ],
-      "illustrator": "Envar Studio",
-      "orientation": "portrait",
-      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/174a22326c894454cb5878f4ce3603d43f9e599f-744x1040.png?accountingTag=RB",
-      "rulesText": "Riftbound Legend: Soul's Reflection. When you empower something else, empower me.\nDisempower me, [T]: Give a unit at a battlefield -2 [S] this turn.",
-      "abilityHtml": "<p>When you empower something else, empower me.<br />Disempower me, :rb_exhaust:: Give a unit at a battlefield -2 :rb_might: this turn.</p>",
-      "effectHtml": null
-    },
-    {
       "id": "ven-151-166",
       "code": "VEN-151/166",
       "collectorNumber": 151,
@@ -24923,6 +24896,33 @@
       "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/2e9e60b3f161b41219c40ef0426049634fb7ba1a-744x1039.png?accountingTag=RB",
       "rulesText": "Riftbound Legend: Soul's Reflection. When you empower something else, empower me. (I become Empowered if I'm not already.)\nDisempower me, [T]: Give a unit at a battlefield -2 [S] this turn.",
       "abilityHtml": "<p>When you empower something else, empower me. (I become Empowered if I'm not already.)<br />Disempower me, :rb_exhaust:: Give a unit at a battlefield -2 :rb_might: this turn.</p>",
+      "effectHtml": null
+    },
+    {
+      "id": "ven-195-star-166",
+      "code": "VEN-195*/166",
+      "collectorNumber": 195,
+      "name": "Soul's Reflection",
+      "set": "Vendetta",
+      "setId": "VEN",
+      "type": "Legend",
+      "rarity": "Rare",
+      "domains": [
+        "Mind",
+        "Chaos"
+      ],
+      "energy": null,
+      "might": null,
+      "mightBonus": null,
+      "power": null,
+      "tags": [
+        "Mel"
+      ],
+      "illustrator": "Envar Studio",
+      "orientation": "portrait",
+      "image": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/174a22326c894454cb5878f4ce3603d43f9e599f-744x1040.png?accountingTag=RB",
+      "rulesText": "Riftbound Legend: Soul's Reflection. When you empower something else, empower me.\nDisempower me, [T]: Give a unit at a battlefield -2 [S] this turn.",
+      "abilityHtml": "<p>When you empower something else, empower me.<br />Disempower me, :rb_exhaust:: Give a unit at a battlefield -2 :rb_might: this turn.</p>",
       "effectHtml": null
     },
     {
